@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="497px" height="327px" viewBox="0 0 497 327" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3 (11970) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="77.4367809%" y1="-215.227317%" x2="77.4367833%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#E7762E" offset="0%"></stop>
+            <stop stop-color="#E7562E" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="134.367963%" id="linearGradient-2">
+            <stop stop-color="#E7762E" offset="0%"></stop>
+            <stop stop-color="#E7562E" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop-HD" sketch:type="MSArtboardGroup" transform="translate(-775.000000, -1617.000000)">
+            <g id="Group" sketch:type="MSLayerGroup" transform="translate(776.000000, 1618.000000)">
+                <g id="Flarum" transform="translate(186.000000, 101.000000)" stroke-width="2" sketch:type="MSShapeGroup">
+                    <path d="M65,91.8399658 L65,134.700958 L9,100.1759" id="Rectangle-7-Copy" stroke="url(#linearGradient-1)"></path>
+                    <path d="M5.0085758,0 C2.24241577,0 -2.8608847e-15,2.24331495 2.67077516e-15,4.99065737 L1.73521434e-13,89.8449825 C0.0845306265,92.6410875 0.0238298142,95.6781004 9.13134962,100.586326 C9.13134962,100.586326 0.207232718,91.8928824 14.25,91.8449825 L114,91.8449825 L114,0 L5.0085758,0 Z" id="Rectangle-6-Copy-2" stroke="url(#linearGradient-2)"></path>
+                </g>
+                <g id="Clock" transform="translate(120.000000, 2.000000)" stroke="#AEC2DA" stroke-width="2" sketch:type="MSShapeGroup">
+                    <g>
+                        <ellipse id="Oval" cx="20.7108982" cy="19.5434179" rx="17.34609" ry="17.4526011"></ellipse>
+                        <path d="M20.7108982,11.4883713 L20.7108982,19.5434179 L26.0481566,22.2284335" id="Shape"></path>
+                        <path d="M14.0359893,35.6568675 L9.36922393,40.3522885" id="Shape"></path>
+                        <path d="M32.0525724,40.3522885 L27.385807,35.6568675" id="Shape"></path>
+                        <path d="M0.0290216023,3.43332459 L2.69765084,0.748309039 L9.36922393,2.09081682 L1.36333622,10.1458635 L0.0290216023,3.43332459 Z" id="Shape"></path>
+                        <path d="M38.7241455,0.748309039 L41.3927747,3.43332459 L40.0584601,10.1458635 L32.0525724,2.09081682 L38.7241455,0.748309039 Z" id="Shape"></path>
+
+                        <animateTransform begin="0s" attributeName="transform" type="translate" dur="2s" values="0 0;0 3;0 0" fill="freeze" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" keyTimes="0;0.5;1" repeatCount="indefinite" />
+                    </g>
+                </g>
+                <g id="Ban" transform="translate(458.414862, 59.843763)" stroke-width="2" stroke="#647D9B" sketch:type="MSShapeGroup">
+                    <g>
+                        <path d="M26.9435166,5.14325615 C33.1082608,11.320266 33.1082608,21.3348184 26.9435166,27.5123384 C20.7802998,33.6898585 10.7872841,33.6898585 4.62355816,27.5123384 C-1.54118605,21.3353286 -1.54118605,11.3207762 4.62355816,5.14325615 C10.7872841,-1.03426391 20.7797907,-1.03426391 26.9435166,5.14325615 L26.9435166,5.14325615 Z"></path>
+                        <path d="M4.62304901,5.14325615 L26.9440258,27.5123384"></path>
+
+                        <animateTransform begin="0s" attributeName="transform" type="translate" dur="2.1s" values="0 0;0 4;0 0" fill="freeze" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" keyTimes="0;0.5;1" repeatCount="indefinite" />
+                    </g>
+                </g>
+                <g id="Bookmark" transform="translate(188.605770, 37.338926)" stroke-width="2" stroke="#647D9B" sketch:type="MSShapeGroup">
+                    <g>
+                        <path d="M0,0 L16.3277973,0 L16.3277973,35.921154 L8.16389865,27.6769548 L0,35.921154 L0,0 Z"></path>
+
+                        <animateTransform begin="0s" attributeName="transform" type="translate" dur="2.2s" values="0 0;0 3;0 0" fill="freeze" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" keyTimes="0;0.5;1" repeatCount="indefinite" />
+                    </g>                        
+                </g>
+                <g id="Cup" transform="translate(327.000000, 69.000000)" stroke="#E3EAF2" stroke-width="2" sketch:type="MSShapeGroup">
+                    <g>
+                        <path d="M6.00658374,15.5435877 C6.00658374,18.1389646 9.56806819,20.2432289 15.411395,20.2432289 C21.2547218,20.2432289 24.8162062,18.1389646 24.8162062,15.5435877 L24.8162062,0.26975409 L6.00658374,0.26975409 L6.00658374,15.5435877 L6.00658374,15.5435877 Z" id="Shape"></path>
+                        <path d="M8.35778655,36.6919728 L22.4650034,36.6919728" id="Shape"></path>
+                        <path d="M15.411395,20.2432289 L15.411395,36.6919728" id="Shape"></path>
+                        <path d="M6.00658374,3.79448493 L0.716377412,3.79448493 C0.716377412,3.79448493 0.716377412,9.0815812 6.00658374,9.0815812" id="Shape"></path>
+                        <path d="M24.8162062,3.79448493 L30.1064125,3.79448493 C30.1064125,3.79448493 30.1064125,9.0815812 24.8162062,9.0815812" id="Shape"></path>
+
+                        <animateTransform begin="0s" attributeName="transform" type="translate" dur="2.3s" values="0 0;0 -3;0 0" fill="freeze" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" keyTimes="0;0.5;1" repeatCount="indefinite" />
+                    </g>
+                </g>
+                <g id="Flag" transform="translate(121.000000, 148.000000)" stroke-width="2" stroke="#AEC2DA" sketch:type="MSShapeGroup">
+                    <g>
+                        <path d="M0.983391883,0.889392827 L0.983391883,44.4301856"></path>
+                        <path d="M17.8972918,4.97134215 L13.8061554,8.37296659 L13.8061554,24.7007639 L34.7275063,24.7007639 L30.6782126,16.5368652 L34.7275063,8.37296659 L13.8061554,8.37296659"></path>
+                        <path d="M13.8061554,21.2991394 L0.983391883,21.2991394 L0.983391883,4.97134215 L17.8554491,4.97134215 L17.8554491,8.37296659"></path>
+
+                        <animateTransform begin="0s" attributeName="transform" type="translate" dur="2.4s" values="0 0;0 -4;0 0" fill="freeze" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" keyTimes="0;0.5;1" repeatCount="indefinite" />
+                    </g>
+                </g>
+                <g id="Heart" transform="translate(373.000000, 216.000000)" stroke-width="2" stroke="#647D9B" sketch:type="MSShapeGroup">
+                    <g>
+                        <path d="M0.64866034,10.0007894 C0.64866034,22.0954541 19.1534973,32.9806523 19.1534973,32.9806523 C19.1534973,32.9806523 37.6583342,22.0954541 37.6583342,10.0007894 C37.6583342,4.99057457 34.0767529,0.325057676 28.7043809,0.325057676 C23.7588139,0.325057676 19.1534973,3.7811081 19.1534973,8.79132294 C19.1534973,3.7811081 14.5481806,0.325057676 9.60261369,0.325057676 C4.23024168,0.325057676 0.64866034,4.99057457 0.64866034,10.0007894 L0.64866034,10.0007894 Z"></path>
+
+                        <animateTransform begin="0s" attributeName="transform" type="translate" dur="2.5s" values="0 0;0 4;0 0" fill="freeze" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" keyTimes="0;0.5;1" repeatCount="indefinite" />
+                    </g>
+                </g>
+                <g id="Key" transform="translate(219.139629, 0.391490)" stroke-width="2" stroke="#AEC2DA" sketch:type="MSShapeGroup">
+                    <g>
+                        <ellipse id="Oval" cx="38.7720393" cy="9.25241847" rx="9.12283277" ry="9.25241847"></ellipse>
+                        <path d="M0,9.25241847 L28.8889705,9.25241847" id="Shape"></path>
+                        <path d="M4.56141639,9.25241847 L4.56141639,16.9627672" id="Shape"></path>
+                        <path d="M10.6433049,9.25241847 L10.6433049,13.8786277" id="Shape"></path>
+
+                        <animateTransform begin="0s" attributeName="transform" type="translate" dur="2.6s" values="0 0;0 3;0 0" fill="freeze" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" keyTimes="0;0.5;1" repeatCount="indefinite" />
+                    </g>
+                </g>
+                <g id="Lock" transform="translate(387.936307, 83.358274)" stroke-width="2" stroke="#647D9B" sketch:type="MSShapeGroup">
+                    <g>
+                        <rect id="Rectangle-path" x="0" y="18.5582485" width="28.0636928" height="17.398358"></rect>
+                        <path d="M4.67728214,18.5582485 L4.67728214,9.27912425 C4.67728214,4.15414794 8.86520364,0 14.0318464,0 C19.1984892,0 23.3864107,4.15414794 23.3864107,9.27912425 L23.3864107,18.5582485" id="Shape"></path>
+                        <ellipse id="Oval" cx="14.0318464" cy="26.6774822" rx="2.33864107" ry="2.31978106"></ellipse>
+                        <path d="M14.0318464,28.9972633 L14.0318464,31.3170443" id="Shape"></path>
+
+                        <animateTransform begin="0s" attributeName="transform" type="translate" dur="2.7s" values="0 0;0 -4;0 0" fill="freeze" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" keyTimes="0;0.5;1" repeatCount="indefinite" />
+                    </g>
+                </g>
+                <g id="Search" transform="translate(328.208801, 136.621094)" stroke="#647D9B" sketch:type="MSShapeGroup">
+                    <g>
+                        <ellipse id="Oval" stroke-width="2" cx="12.0147413" cy="12.0147413" rx="12.0147413" ry="12.0147413"></ellipse>
+                        <path d="M20.4250602,20.4250602 L24.0294825,24.0294825" id="Shape" stroke-width="2"></path>
+                        <path d="M30.7867376,27.181624 C32.9398873,29.3347737 37.2461868,33.6410732 37.2461868,33.6410732 L33.6419185,37.2453415 L22.2280483,25.8314713 L25.8323166,22.227203 C25.8323166,22.227203 29.1352639,25.5301503 30.7867376,27.181624 Z" id="Rectangle-path" stroke-width="1.99998082"></path>
+
+                        <animateTransform begin="0s" attributeName="transform" type="translate" dur="2.8s" values="0 0;0 -3;0 0" fill="freeze" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" keyTimes="0;0.5;1" repeatCount="indefinite" />
+                    </g>
+                </g>
+                <g id="Envelope" transform="translate(445.000000, 195.000000)" stroke="#647D9B" stroke-width="2" sketch:type="MSShapeGroup">
+                    <g>
+                        <rect id="Rectangle-path" x="0.871329698" y="0.423251363" width="42.452273" height="25.0359559"></rect>
+                        <path d="M0.871329698,0.423251363 L22.0974662,13.9562005 L43.3236027,0.423251363" id="Shape"></path>
+
+                        <animateTransform begin="0s" attributeName="transform" type="translate" dur="2.9s" values="0 0;0 3;0 0" fill="freeze" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" keyTimes="0;0.5;1" repeatCount="indefinite" />
+                    </g>
+                </g>
+                <g id="Image" transform="translate(456.648660, 119.839568)" stroke="#AEC2DA" stroke-width="2" sketch:type="MSShapeGroup">
+                    <g>
+                        <rect id="Rectangle-path" x="0" y="0" width="38.0981937" height="26.1244757"></rect>
+                        <path d="M0,22.3924077 L14.1332009,9.95218121 L21.5070448,17.4163171 L25.1939668,12.4402265 L38.0981937,23.6364304" id="Shape"></path>
+                        <ellipse id="Oval" cx="30.7243497" cy="6.84212458" rx="3.07243497" ry="3.11005663"></ellipse>
+
+                        <animateTransform begin="0s" attributeName="transform" type="translate" dur="3s" values="0 0;0 4;0 0" fill="freeze" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" keyTimes="0;0.5;1" repeatCount="indefinite" />
+                    </g>
+                </g>
+                <g id="Pin" transform="translate(71.311189, 52.200582)" stroke-width="2" stroke="#647D9B" sketch:type="MSShapeGroup">
+                    <g>
+                        <path d="M12.5179779,46.8063522 L12.5179779,26.003529"></path>
+                        <path d="M12.5179779,0 L5.1544615,0 L5.1544615,2.97183189 L8.83621971,5.94366378 L7.36351643,18.5739493 L0.736351643,21.5457812 L0,26.003529 L12.5179779,26.003529"></path>
+                        <path d="M12.5179779,0 L19.8814944,0 L19.8814944,2.97183189 L16.1997361,5.94366378 L17.6724394,18.5739493 L24.2996042,21.5457812 L25.0359559,26.003529 L12.5179779,26.003529"></path>
+
+                        <animateTransform begin="0s" attributeName="transform" type="translate" dur="3.1s" values="0 0;0 -3;0 0" fill="freeze" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" keyTimes="0;0.5;1" repeatCount="indefinite" />
+                    </g>
+                </g>
+                <g id="RSS" transform="translate(336.000000, 276.000000)" stroke="#E3EAF2" stroke-width="2" sketch:type="MSShapeGroup">
+                    <g>
+                        <path d="M33.9687957,29.7675971 C33.9687957,22.5817076 31.3956731,15.996249 27.1203474,10.8837479" id="Shape"></path>
+                        <path d="M27.1203474,10.8837479 C21.7170041,4.42041093 13.5932425,0.30844956 4.50964824,0.30844956" id="Shape"></path>
+                        <path d="M27.9259212,29.7675971 C27.9259212,16.8350313 17.4416784,6.35132414 4.50964824,6.35132414" id="Shape"></path>
+                        <path d="M21.8825109,29.7675971 C21.8825109,20.1730205 14.1036891,12.3941987 4.50911262,12.3941987" id="Shape"></path>
+                        <path d="M15.840172,29.7675971 C15.840172,23.5094029 10.7667712,18.4370733 4.50964824,18.4370733" id="Shape"></path>
+                        <ellipse id="Oval" cx="4.50964824" cy="29.7675971" rx="3.77666271" ry="3.77666271"></ellipse>
+
+                        <animateTransform begin="0s" attributeName="transform" type="translate" dur="3.2s" values="0 0;0 -4;0 0" fill="freeze" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" keyTimes="0;0.5;1" repeatCount="indefinite" />
+                    </g>
+                </g>
+                <g id="Help" transform="translate(237.000000, 41.000000)" stroke-width="2" stroke="#E3EAF2" sketch:type="MSShapeGroup">
+                    <g>
+                        <path d="M29.0504583,5.34358825 C35.639813,11.9318545 35.639813,22.6140437 29.0504583,29.2028542 C22.4616478,35.7927532 11.7789143,35.7927532 5.19010382,29.2028542 C-1.39925091,22.614588 -1.39925091,11.9323987 5.19010382,5.34358825 C11.7789143,-1.24631074 22.4611035,-1.24631074 29.0504583,5.34358825 L29.0504583,5.34358825 Z" id="Shape"></path>
+                        <path d="M16.0317612,23.2600802 L16.0317612,25.4371199" id="Shape"></path>
+                        <path d="M12.7662018,11.2863622 C12.7662018,9.65358248 13.8547216,8.56506266 17.120281,8.56506266 C19.8415806,8.56506266 21.4743603,10.1978424 21.4743603,12.374882 C21.4743603,14.5519217 18.2088009,16.1847014 18.2088009,16.1847014 C18.2088009,16.1847014 16.0317612,17.2732212 16.0317612,20.5387807 L16.0317612,21.0830406" id="Shape"></path>
+
+                        <animateTransform begin="0s" attributeName="transform" type="translate" dur="3.3s" values="0 0;0 4;0 0" fill="freeze" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" keyTimes="0;0.5;1" repeatCount="indefinite" />
+                    </g>
+                </g>
+                <g id="Share" transform="translate(47.000000, 128.000000)" stroke="#E3EAF2" stroke-width="2" sketch:type="MSShapeGroup">
+                    <g>
+                        <ellipse id="Oval" cx="34.235704" cy="9.15159151" rx="8.21656896" ry="8.21656896"></ellipse>
+                        <ellipse id="Oval" cx="6.8471408" cy="29.0082998" rx="6.8471408" ry="6.8471408"></ellipse>
+                        <ellipse id="Oval" cx="32.1815618" cy="37.9095829" rx="5.47771264" ry="5.47771264"></ellipse>
+                        <path d="M26.7038491,37.2248688 L13.0095675,31.7471562" id="Shape"></path>
+                        <path d="M12.3248534,24.2153013 L27.3885632,14.6293041" id="Shape"></path>
+
+                        <animateTransform begin="0s" attributeName="transform" type="translate" dur="3.4s" values="0 0;0 3;0 0" fill="freeze" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" keyTimes="0;0.5;1" repeatCount="indefinite" />
+                    </g>
+                </g>
+                <g id="Tools" transform="translate(291.713638, 213.724767)" stroke="#AEC2DA" sketch:type="MSShapeGroup">
+                    <g>
+                        <path d="M24.5999619,20.7066091 L28.0875615,24.1577106" id="Shape" stroke-width="2"></path>
+                        <path d="M36.1860292,28.0009123 L43.364222,35.1791051 L39.1792813,39.3640458 L26.0652495,26.2500139 L30.2501902,22.0650732 L36.1860292,28.0009123 Z" id="Rectangle-path" stroke-width="1.99998082"></path>
+                        <path d="M7.85948353,8.28264365 L12.0446031,4.14132182 L5.0694038,0 L3.67436394,1.38044061 L7.85948353,8.28264365 Z" id="Shape" stroke-width="2"></path>
+                        <path d="M19.0198024,15.1848467 L9.95204332,6.21198274" id="Shape" stroke-width="2"></path>
+                        <path d="M39.9454004,5.86687259 L34.3652409,8.45519873 L31.5751612,5.60803997 L34.016481,0.0434838792 C27.0412816,0.0427936589 25.2974818,3.45110152 25.2974818,6.90220304 L25.2974818,9.66308426 L1.93056411,33.1305746 L0.70990423,37.2718964 L2.19213408,38.652337 L6.42049991,37.6170066 L30.1801213,14.4946264 L32.9702011,14.4946264 C36.4578007,14.4946264 39.9454004,12.7690756 39.9454004,5.86687259 L39.9454004,5.86687259 L39.9454004,5.86687259 Z" id="Shape" stroke-width="2"></path>
+
+                        <animateTransform begin="0s" attributeName="transform" type="translate" dur="3.5s" values="0 0;0 -4;0 0" fill="freeze" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" keyTimes="0;0.5;1" repeatCount="indefinite" />
+                    </g>
+                </g>
+                <g id="Star" transform="translate(69.000000, 208.000000)" stroke="#AEC2DA" stroke-width="2" sketch:type="MSShapeGroup">
+                    <g>
+                        <path d="M18.8629873,29.4708103 L6.54186933,38.8224893 L11.4703165,23.8598029 L0.381310354,15.1315692 L13.9345401,15.1315692 L18.8629873,0.792328086 L23.7914345,15.1315692 L37.3446642,15.1315692 L26.2556581,23.8598029 L31.1841052,38.8224893 L18.8629873,29.4708103 Z" id="Shape"></path>
+
+                        <animateTransform begin="0s" attributeName="transform" type="translate" dur="3.6s" values="0 0;0 -3;0 0" fill="freeze" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" keyTimes="0;0.5;1" repeatCount="indefinite" />
+                    </g>
+                </g>
+                <g id="Trash" transform="translate(377.627858, 18.315384)" stroke-width="2" stroke="#AEC2DA" sketch:type="MSShapeGroup">
+                    <g>
+                        <path d="M8.30868491,3.86956898 L8.30868491,0 L16.0634575,0 L16.0634575,3.86956898"></path>
+                        <path d="M2.21564931,4.97516012 L2.21564931,34.2733253 L22.1564931,34.2733253 L22.1564931,4.97516012"></path>
+                        <path d="M8.86259724,10.5031158 L8.86259724,29.2981651"></path>
+                        <path d="M15.5095452,10.5031158 L15.5095452,29.2981651"></path>
+                        <path d="M0,4.42236455 L24.3721424,4.42236455"></path>
+
+                        <animateTransform begin="0s" attributeName="transform" type="translate" dur="3.7s" values="0 0;0 3;0 0" fill="freeze" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" keyTimes="0;0.5;1" repeatCount="indefinite" />
+                    </g>
+                </g>
+                <g id="Tags" transform="translate(153.510316, 228.210256)" stroke-width="2" stroke="#647D9B" sketch:type="MSShapeGroup">
+                    <g>
+                        <path d="M14.4465586,0 L37.3206795,22.6835033 L22.8741209,37.0096739 L0,14.3261706 L0,0 L14.4465586,0 Z" id="Shape"></path>
+                        <path d="M19.9755482,0 L42.8496691,22.6835033 L28.4031105,37.0096739" id="Shape"></path>
+                        <ellipse id="Oval" cx="8.98460804" cy="8.9097363" rx="3.45561848" ry="3.42682165"></ellipse>
+
+                        <animateTransform begin="0s" attributeName="transform" type="translate" dur="3.8s" values="0 0;0 4;0 0" fill="freeze" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" keyTimes="0;0.5;1" repeatCount="indefinite" />
+                    </g>
+                </g>
+                <g id="Bell" transform="translate(127.000000, 76.000000)" stroke-width="2" stroke="#E3EAF2" sketch:type="MSShapeGroup">
+                    <g>
+                        <path d="M14.8145711,30.8540666 L28.9653288,30.8540666 L28.9653288,28.6067999 L25.0031166,24.6740831 L25.0031166,13.9995662 C25.0031166,8.41454653 20.4414784,3.8868659 14.8145711,3.8868659 C9.18766382,3.8868659 4.62602559,8.41454653 4.62602559,13.9995662 L4.62602559,24.6740831 L0.663813444,28.6067999 L0.663813444,30.8540666 L14.8145711,30.8540666 L14.8145711,30.8540666 Z"></path>
+                        <path d="M4.62602559,22.9886331 L25.0031166,22.9886331"></path>
+                        <path d="M4.62602559,19.617733 L25.0031166,19.617733"></path>
+                        <path d="M18.7767832,30.8540666 C18.7767832,33.3361727 16.7492627,35.3486 14.2485408,35.3486 C11.7478189,35.3486 9.72029834,33.3361727 9.72029834,30.8540666"></path>
+                        <path d="M12.5504499,3.8868659 L12.5504499,0.515965814 L17.0786923,0.515965814 L17.0786923,3.8868659"></path>
+
+                        <animateTransform begin="0s" attributeName="transform" type="translate" dur="3.9s" values="0 0;0 -3;0 0" fill="freeze" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" keyTimes="0;0.5;1" repeatCount="indefinite" />
+                    </g>
+                </g>
+                <g id="Paintbrush" transform="translate(299.540793, 10.073367)" stroke-width="2" stroke="#647D9B" sketch:type="MSShapeGroup">
+                    <g>
+                        <path d="M19.347562,27.3534497 L16.6789327,30.0220789 L11.3416742,24.6848204 L14.0103035,22.0161912 L40.6965958,0 L41.3637531,0.667157309 L19.347562,27.3534497 Z"></path>
+                        <path d="M14.0103035,22.0161912 L19.347562,27.3534497"></path>
+                        <path d="M16.6789327,30.0220789 C16.6789327,30.0220789 11.3416742,41.3637531 0,41.3637531 C0,41.3637531 1.83601691,30.4797488 6.00441578,27.3534497 C8.67304501,25.3519777 11.3416742,24.6848204 11.3416742,24.6848204"></path>
+
+                        <animateTransform begin="0s" attributeName="transform" type="translate" dur="4s" values="0 0;0 -4;0 0" fill="freeze" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" keyTimes="0;0.5;1" repeatCount="indefinite" />
+                    </g>
+                </g>
+                <g id="Globe" transform="translate(399.000000, 144.000000)" stroke="#E3EAF2" stroke-width="2" sketch:type="MSShapeGroup">
+                    <g>
+                        <path d="M17.0005313,0.47121875 C26.1295313,0.47121875 33.5293125,7.871 33.5287813,17 C33.5293125,26.1295312 26.129,33.5298437 17,33.5287812 C7.87046875,33.5293125 0.47121875,26.1295312 0.47175,17.0005312 C0.47015625,7.871 7.87046875,0.47121875 17.0005313,0.47121875 L17.0005313,0.47121875 Z" id="Shape"></path>
+                        <path d="M17,0.53125 L17,33.46875" id="Shape"></path>
+                        <path d="M33.46875,17 L0.53125,17" id="Shape"></path>
+                        <path d="M15.9375,0.53125 C15.9375,0.53125 8.5,6.375 8.5,17 C8.5,27.625 15.9375,33.46875 15.9375,33.46875" id="Shape"></path>
+                        <path d="M18.0625,0.53125 C18.0625,0.53125 25.5,6.375 25.5,17 C25.5,27.625 18.0625,33.46875 18.0625,33.46875" id="Shape"></path>
+                        <path d="M4.25,6.375 C4.25,6.375 6.90625,11.6875 17,11.6875 C27.09375,11.6875 29.75,6.375 29.75,6.375" id="Shape"></path>
+                        <path d="M4.25,27.625 C4.25,27.625 6.90625,22.3125 17,22.3125 C27.09375,22.3125 29.75,27.625 29.75,27.625" id="Shape"></path>
+
+                        <animateTransform begin="0s" attributeName="transform" type="translate" dur="4.1s" values="0 0;0 4;0 0" fill="freeze" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" keyTimes="0;0.5;1" repeatCount="indefinite" />
+                    </g>
+                </g>
+                <g id="Keyboard" transform="translate(35.000000, 274.000000)" stroke="#E3EAF2" stroke-width="2" sketch:type="MSShapeGroup">
+                    <g>
+                        <rect id="Rectangle-path" x="0" y="12.75" width="44" height="21.25"></rect>
+                        <path d="M4.25806452,12.75 L4.25806452,7.08333333 L14.1935484,7.08333333 L14.1935484,2.125 L7.09677419,2.125 L7.09677419,0" id="Shape"></path>
+                        <path d="M2.12903226,17.7083333 L4.96774194,17.7083333" id="Shape"></path>
+                        <path d="M6.38709677,17.7083333 L9.22580645,17.7083333" id="Shape"></path>
+                        <path d="M10.6451613,17.7083333 L13.483871,17.7083333" id="Shape"></path>
+                        <path d="M14.9032258,17.7083333 L17.7419355,17.7083333" id="Shape"></path>
+                        <path d="M19.1612903,17.7083333 L22,17.7083333" id="Shape"></path>
+                        <path d="M23.4193548,17.7083333 L26.2580645,17.7083333" id="Shape"></path>
+                        <path d="M27.6774194,17.7083333 L30.516129,17.7083333" id="Shape"></path>
+                        <path d="M31.9354839,17.7083333 L34.7741935,17.7083333" id="Shape"></path>
+                        <path d="M36.1935484,17.7083333 L39.0322581,17.7083333" id="Shape"></path>
+                        <path d="M2.12903226,29.0416667 L4.96774194,29.0416667" id="Shape"></path>
+                        <path d="M6.38709677,29.0416667 L9.22580645,29.0416667" id="Shape"></path>
+                        <path d="M10.6451613,29.0416667 L29.0967742,29.0416667" id="Shape"></path>
+                        <path d="M34.7741935,29.0416667 L37.6129032,29.0416667" id="Shape"></path>
+                        <path d="M39.0322581,29.0416667 L41.8709677,29.0416667" id="Shape"></path>
+                        <path d="M30.516129,29.0416667 L33.3548387,29.0416667" id="Shape"></path>
+                        <path d="M4.96774194,23.375 L7.80645161,23.375" id="Shape"></path>
+                        <path d="M9.22580645,23.375 L12.0645161,23.375" id="Shape"></path>
+                        <path d="M13.483871,23.375 L16.3225806,23.375" id="Shape"></path>
+                        <path d="M17.7419355,23.375 L20.5806452,23.375" id="Shape"></path>
+                        <path d="M22,23.375 L24.8387097,23.375" id="Shape"></path>
+                        <path d="M26.2580645,23.375 L29.0967742,23.375" id="Shape"></path>
+                        <path d="M30.516129,23.375 L33.3548387,23.375" id="Shape"></path>
+                        <path d="M34.7741935,23.375 L37.6129032,23.375" id="Shape"></path>
+                        <path d="M39.0322581,23.375 L41.8709677,23.375" id="Shape"></path>
+
+                        <animateTransform begin="0s" attributeName="transform" type="translate" dur="4.2s" values="0 0;0 3;0 0" fill="freeze" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" keyTimes="0;0.5;1" repeatCount="indefinite" />
+                    </g>
+                </g>
+                <g id="Chart" transform="translate(0.000000, 77.000000)" stroke="#E3EAF2" stroke-width="2" sketch:type="MSShapeGroup">
+                    <g>
+                        <rect id="Rectangle-path" x="0" y="19.8709677" width="8.45454545" height="24.1290323"></rect>
+                        <rect id="Rectangle-path" x="22.5454545" y="26.9677419" width="8.45454545" height="17.0322581"></rect>
+                        <rect id="Rectangle-path" x="11.2727273" y="0" width="8.45454545" height="44"></rect>
+
+                        <animateTransform begin="0s" attributeName="transform" type="translate" dur="4.3s" values="0 0;0 -4;0 0" fill="freeze" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" keyTimes="0;0.5;1" repeatCount="indefinite" />
+                    </g>
+                </g>
+                <g id="Pencil" transform="translate(112.000000, 285.000000)" stroke="#AEC2DA" stroke-width="2" sketch:type="MSShapeGroup">
+                    <g>
+                        <path d="M11.9516129,33.3387097 L5.66129032,27.0483871" id="Shape"></path>
+                        <path d="M5.66129032,27.0483871 L0,38.3709677 L0.629032258,39 L11.9516129,33.3387097 L39,6.29032258 L32.7096774,0 L5.66129032,27.0483871 Z" id="Shape"></path>
+                        <path d="M33.3387097,11.9516129 L27.0483871,5.66129032" id="Shape"></path>
+                        <path d="M35.8548387,9.43548387 L29.5645161,3.14516129" id="Shape"></path>
+                        <path d="M2.51612903,33.3387097 L5.03225806,33.9677419 L5.66129032,36.483871" id="Shape"></path>
+
+                        <animateTransform begin="0s" attributeName="transform" type="translate" dur="4.4s" values="0 0;0 -3;0 0" fill="freeze" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" keyTimes="0;0.5;1" repeatCount="indefinite" />
+                    </g>
+                </g>
+                <g id="Paragraph" transform="translate(3.000000, 201.000000)" stroke-width="2" stroke="#647D9B" sketch:type="MSShapeGroup">
+                    <g>
+                        <path d="M25,41 L25,0 L18.4210526,0 L18.4210526,41"></path>
+                        <path d="M10.5263158,20.8253968 L18.4210526,20.8253968"></path>
+                        <path d="M10.5263158,20.8253968 C10.5263158,20.8253968 0,20.8253968 0,10.4126984 C0,0 10.5263158,0 10.5263158,0 L18.4210526,0"></path>
+
+                        <animateTransform begin="0s" attributeName="transform" type="translate" dur="4.5s" values="0 0;0 3;0 0" fill="freeze" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" keyTimes="0;0.5;1" repeatCount="indefinite" />
+                    </g>
+                </g>
+                <g id="Comments" transform="translate(232.000000, 275.000000)" stroke-width="2" stroke="#AEC2DA" sketch:type="MSShapeGroup">
+                    <g>
+                        <path d="M15.7258065,29.0791579 L33.9444677,29.0791579 L33.9444677,5.07915789 L0,5.07915789 L0,29.0791579 L8.17741935,29.0791579 L8.17741935,35.6753684 L15.7258065,29.0791579 Z"></path>
+                        <path d="M35.2258065,24.0265263 L38.9767258,24.0265263 L38.9767258,0.0265263158 L5.03225806,0.0265263158 L5.03225806,3.78947368"></path>
+
+                        <animateTransform begin="0s" attributeName="transform" type="translate" dur="4.6s" values="0 0;0 4;0 0" fill="freeze" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" keyTimes="0;0.5;1" repeatCount="indefinite" />
+                    </g>
+                </g>
+                <g id="Link" transform="translate(436.000000, 8.000000)" stroke="#E3EAF2" stroke-width="2" sketch:type="MSShapeGroup">
+                    <g>
+                        <path d="M19.1634194,17.0881875 C19.8149032,17.3713437 20.5345161,17.5285937 21.2908548,17.5280625 C23.031871,17.5264687 24.5775484,16.6908125 25.5478548,15.399875 L31.9301613,9.020625 C32.5981452,8.13184375 32.9936129,7.02790625 32.9925484,5.8320625 C32.9909516,2.8985 30.6059032,0.52115625 27.6662419,0.52328125 C26.468129,0.52434375 25.3631613,0.920125 24.4732258,1.58790625 L17.5586613,8.4989375 C16.617629,9.45784375 15.9634839,10.7710937 15.9640161,12.2192812 C15.9645484,12.9757812 16.1236935,13.6950937 16.4095161,14.345875" id="Shape"></path>
+                        <path id="Shape" d="M16.4100484,14.345875 C16.4419761,14.4101562 16.4745062,14.473375 16.5100484,14.5360625"></path>
+                        <path d="M13.8371129,16.912875 C13.1850968,16.6286562 12.4654839,16.4714062 11.7091452,16.4719375 C10.5110323,16.473 9.40553226,16.8687812 8.51612903,17.5365625 L1.60209677,24.448125 C0.661064516,25.4065 0.00691935484,26.71975 0.00798387097,28.1679375 C0.00958064516,31.1015 2.39462903,33.4788437 5.33429032,33.4767187 C7.07530645,33.475125 8.62045161,32.6394687 9.59075806,31.3485312 L15.9730645,24.9692812 C16.6410484,24.0805 17.0365161,22.9765625 17.0354516,21.7807187 C17.0349194,21.0252812 16.8763065,20.3070312 16.5910161,19.6567812" id="Shape"></path>
+                        <path d="M11.712871,21.7844375 L21.287129,12.2155625" id="Shape"></path>
+
+                        <animateTransform begin="0s" attributeName="transform" type="translate" dur="4.7s" values="0 0;0 -3;0 0" fill="freeze" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" keyTimes="0;0.5;1" repeatCount="indefinite" />
+                    </g>
+                </g>
+                <g id="Floppy-Disk" transform="translate(428.000000, 267.000000)" stroke="#E3EAF2" stroke-width="2" sketch:type="MSShapeGroup">
+                    <g>
+                        <path d="M38,38 L0,38 L0,0 L30.6451613,0 L38,7.35483871 L38,38 Z" id="Shape"></path>
+                        <rect id="Rectangle-path" x="3.67741935" y="18.3870968" width="30.6451613" height="19.6129032"></rect>
+                        <path d="M7.96774194,23.2903226 L30.0322581,23.2903226" id="Shape"></path>
+                        <path d="M7.96774194,28.1935484 L30.0322581,28.1935484" id="Shape"></path>
+                        <path d="M7.96774194,33.0967742 L30.0322581,33.0967742" id="Shape"></path>
+                        <rect id="Rectangle-path" x="8.58064516" y="0" width="20.8387097" height="11.6451613"></rect>
+                        <rect id="Rectangle-path" x="22.6774194" y="2.4516129" width="3.06451613" height="6.74193548"></rect>
+
+                        <animateTransform begin="0s" attributeName="transform" type="translate" dur="4.8s" values="0 0;0 -4;0 0" fill="freeze" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" keyTimes="0;0.5;1" repeatCount="indefinite" />
+                    </g>
+                </g>
+                <g id="Cloud" transform="translate(38.000000, 1.000000)" stroke-width="2" stroke="#E3EAF2" sketch:type="MSShapeGroup">
+                    <g>
+                        <path d="M27.7419355,25 L37.4516129,25 C40.6176613,25 43,22.5125 43,19.4444444 C43,16.3763889 40.6176613,13.8888889 37.4516129,13.8888889 C37.4516129,6.21805556 30.8490323,0 22.932871,0 C15.9280323,0 9.57096774,4.675 8.32258065,11.1111111 L7.16643548,11.1111111 C3.20835484,11.1111111 0,14.2201389 0,18.0555556 C0,21.8909722 2.97740323,25 6.93548387,25 L27.7419355,25"></path>
+
+                        <animateTransform begin="0s" attributeName="transform" type="translate" dur="4.9s" values="0 0;0 4;0 0" fill="freeze" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" keyTimes="0;0.5;1" repeatCount="indefinite" />
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
