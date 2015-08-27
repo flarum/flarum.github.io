@@ -1,0 +1,14 @@
+markdown: kramdown
+title: Flarum – Forums Made Simple
+email: toby@flarum.org
+description: "Flarum is the next-generation forum software that makes online discussion fun. It's simple, fast, and free."
+baseurl: ""
+url: "http://flarum.org"
+twitter_username: Flarum
+google_analytics_id: UA-44566935-2
+kramdown:
+  input: GFM
+
+collections:
+  docs:
+    output: true

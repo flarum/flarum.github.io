@@ -1,0 +1,94 @@
+.animated {
+  -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
+  -ms-animation-fill-mode: both;
+  -o-animation-fill-mode: both;
+  animation-fill-mode: both;
+
+  -webkit-animation-duration: 0.5s;
+  -moz-animation-duration: 0.5s;
+  -ms-animation-duration: 0.5s;
+  -o-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity: 0}
+  100% {opacity: 1}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity: 0}
+  100% {opacity: 1}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity: 0}
+  100% {opacity: 1}
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0}
+  100% {opacity: 1}
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  -moz-animation-name: fadeIn;
+  -o-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
+@-webkit-keyframes fadeUp {
+  0% {opacity: 0; transform: translateY(10px)}
+  100% {opacity: 1; transform: translateY(0)}
+}
+
+@-moz-keyframes fadeUp {
+  0% {opacity: 0; transform: translateY(10px)}
+  100% {opacity: 1; transform: translateY(0)}
+}
+
+@-o-keyframes fadeUp {
+  0% {opacity: 0; transform: translateY(10px)}
+  100% {opacity: 1; transform: translateY(0)}
+}
+
+@keyframes fadeUp {
+  0% {opacity: 0; transform: translateY(10px)}
+  100% {opacity: 1; transform: translateY(0)}
+}
+
+.fadeUp {
+  -webkit-animation-name: fadeUp;
+  -moz-animation-name: fadeUp;
+  -o-animation-name: fadeUp;
+  animation-name: fadeUp;
+}
+
+@-webkit-keyframes fadeDown {
+  0% {opacity: 0; transform: translateY(-10px)}
+  100% {opacity: 1; transform: translateY(0)}
+}
+
+@-moz-keyframes fadeDown {
+  0% {opacity: 0; transform: translateY(-10px)}
+  100% {opacity: 1; transform: translateY(0)}
+}
+
+@-o-keyframes fadeDown {
+  0% {opacity: 0; transform: translateY(-10px)}
+  100% {opacity: 1; transform: translateY(0)}
+}
+
+@keyframes fadeDown {
+  0% {opacity: 0; transform: translateY(-10px)}
+  100% {opacity: 1; transform: translateY(0)}
+}
+
+.fadeDown {
+  -webkit-animation-name: fadeDown;
+  -moz-animation-name: fadeDown;
+  -o-animation-name: fadeDown;
+  animation-name: fadeDown;
+}

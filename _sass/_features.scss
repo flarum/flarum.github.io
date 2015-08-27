@@ -1,0 +1,445 @@
+.features {
+  min-width: 930px;
+}
+
+.Hero--features {
+  text-align: center;
+  padding: 60px 0;
+}
+
+.Feature {
+  padding: 50px 0 0;
+}
+.Feature:not(.Feature--first) {
+  background-image: linear-gradient(to bottom, rgb(239, 242, 246) 0%, rgba(239, 242, 246, 0) 250px);
+}
+.Feature-header {
+  text-align: center;
+}
+.Feature-header h3 {
+  font-size: 37px;
+  color: #E7672E;
+  font-weight: 300;
+  margin: .25em 0;
+}
+.Feature-header p {
+  font-size: 20px;
+  color: #536F90;
+  max-width: 600px;
+  margin: .5em auto 0;
+}
+
+.Screenshot {
+  color: #888;
+  overflow: hidden;
+  margin: 75px 0;
+}
+.Screenshot h4 {
+  color: #444;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 4em 0 0;
+}
+.Screenshot h4:first-child, .Screenshot .ComingSoonLabel + h4 {
+  margin-top: 0;
+}
+.Screenshot p {
+  margin: .5em 0 1em;
+}
+.Screenshot--right .Screenshot-image {
+  float: right;
+  background-repeat: no-repeat;
+  background-position: top left;
+  width: 50%;
+  margin: 0;
+}
+.Screenshot--right .Screenshot-text {
+  width: 300px;
+  float: right;
+  margin: 15px 100px 0 0;
+}
+.Screenshot--left .Screenshot-image {
+  float: left;
+  background-repeat: no-repeat;
+  background-position: top right;
+  width: 50%;
+  margin: 0;
+  text-align: right;
+}
+.Screenshot--left .Screenshot-text {
+  width: 300px;
+  float: left;
+  margin: 15px 0 0 100px;
+}
+.Screenshot--center .Screenshot-image {
+  background-repeat: no-repeat;
+  background-position: top center;
+  margin: 0;
+}
+.Screenshot--center .Screenshot-text {
+  width: 425px;
+  text-align: center;
+  margin: 50px auto 25px;
+}
+.Screenshot--dark, .Screenshot--dark h4 {
+  color: #fff;
+}
+
+
+
+.Screenshot--uiPane .Screenshot-image {
+  width: 55%;
+  height: 399px;
+  background-size: 1001px 399px;
+  background-image: url(../img/features/screenshots/ui-pane.png);
+
+  @include respond-to(retina) {
+    background-image: url(../img/features/screenshots/ui-pane_2x.png);
+  }
+}
+.Screenshot--uiPane .Screenshot-text {
+  margin-top: 50px;
+}
+.Screenshot--uiScrolling .Screenshot-image {
+  width: 55%;
+  height: 371px;
+  background-size: 655px 371px;
+  background-image: url(../img/features/screenshots/ui-scrolling.png);
+
+  @include respond-to(retina) {
+    background-image: url(../img/features/screenshots/ui-scrolling_2x.png);
+  }
+}
+.Screenshot--uiScrolling .Screenshot-text {
+  margin-top: 50px;
+}
+.Screenshot--uiComposer {
+  margin-bottom: 0;
+}
+.Screenshot--uiComposer .Screenshot-image {
+  height: 331px;
+  background-size: 932px 331px;
+  background-image: url(../img/features/screenshots/ui-composer.png);
+
+  @include respond-to(retina) {
+    background-image: url(../img/features/screenshots/ui-composer_2x.png);
+  }
+}
+
+.Screenshot--touch .Screenshot-image {
+  height: 591px;
+  background-size: 689px 591px;
+  background-image: url(../img/features/screenshots/touch.png);
+
+  @include respond-to(retina) {
+    background-image: url(../img/features/screenshots/touch_2x.png);
+  }
+}
+.Screenshot--touch .Screenshot-text {
+  margin-top: 50px;
+}
+.Screenshot--touchCode {
+  background: #272722;
+  margin-bottom: 0;
+}
+.Screenshot--touchCode .Screenshot-image {
+  height: 296px;
+  background-size: 530px 296px;
+  background-image: url(../img/features/screenshots/touch-code.png);
+
+  @include respond-to(retina) {
+    background-image: url(../img/features/screenshots/touch-code_2x.png);
+  }
+}
+.Screenshot--touchCode .Screenshot-text {
+  margin-top: 75px;
+}
+
+.Screenshot--fastSize .Screenshot-text {
+  margin-top: 0;
+}
+.Screenshot--fastSize .Screenshot-image {
+  width: 50%;
+}
+.SizeBars {
+  margin: 1em 0;
+  padding: 0;
+  list-style: none;
+  font-size: 13px;
+  color: #7E96B3;
+}
+.SizeBars li {
+  margin-bottom: 18px;
+  padding-left: 80px;
+}
+.SizeBars strong {
+  float: left;
+  margin-left: -80px;
+  font-weight: normal;
+}
+.SizeBars strong a {
+  border: 0;
+}
+.SizeBar {
+  display: inline-block;
+  vertical-align: middle;
+  width: 185px;
+  white-space: nowrap;
+}
+.SizeBar-bar {
+  border: 2px solid #AEC2DA;
+  height: 17px;
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 4px;
+}
+.SizeBars-highlight {
+  color: #E7672E;
+}
+.SizeBars-highlight .SizeBar-bar {
+  border-color: #E7562E;
+}
+.SizeBar-number {
+  margin-left: 15px;
+  vertical-align: -2px;
+}
+
+.Screenshot--fastTrust .Screenshot-text {
+  margin-top: 0;
+}
+.Screenshot--fastTrust .Screenshot-image {
+  width: 50%;
+  padding-top: 30px;
+}
+.Screenshot--fastTrust .Screenshot-image a {
+  border: 0;
+  margin-left: 40px;
+}
+.Screenshot--fastTrust .Screenshot-image a img {
+  vertical-align: middle;
+}
+
+.Screenshot--installation .Screenshot-text {
+  margin-top: 30px;
+}
+.Screenshot--installation .Screenshot-image {
+  width: 47%;
+  height: 445px;
+  background-size: 403px 445px;
+  background-image: url(../img/features/screenshots/installation.png);
+
+  @include respond-to(retina) {
+    background-image: url(../img/features/screenshots/installation_2x.png);
+  }
+}
+
+.ComingSoonLabel {
+  background: #9565D1;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 11px;
+  padding: 4px 6px;
+  font-weight: bold;
+  border-radius: 4px;
+  line-height: 1em;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  display: inline-block;
+}
+
+.Screenshot--extensible .Screenshot-image {
+  height: 309px;
+  background-size: 1010px 309px;
+  background-image: url(../img/features/screenshots/extensible.png);
+
+  @include respond-to(retina) {
+    background-image: url(../img/features/screenshots/extensible_2x.png);
+  }
+}
+.Screenshot--extensibleApi .Screenshot-image {
+  width: 50%;
+  height: 216px;
+  background-size: 684px 216px;
+  background-image: url(../img/features/screenshots/extensible-api.png);
+
+  @include respond-to(retina) {
+    background-image: url(../img/features/screenshots/extensible-api_2x.png);
+  }
+}
+.Screenshot--extensibleArchitecture .Screenshot-image {
+  width: 45%;
+  height: 308px;
+  background-size: 333px 308px;
+  background-image: url(../img/features/screenshots/extensible-architecture.png);
+
+  @include respond-to(retina) {
+    background-image: url(../img/features/screenshots/extensible-architecture_2x.png);
+  }
+}
+.Screenshot--extensibleArchitecture .Screenshot-text {
+  margin-top: 50px;
+}
+
+.Screenshot--themeable .Screenshot-image {
+  height: 261px;
+  background-size: 1451px 261px;
+  background-image: url(../img/features/screenshots/themeable.png);
+
+  @include respond-to(retina) {
+    background-image: url(../img/features/screenshots/themeable_2x.png);
+  }
+}
+.Screenshot--themeableAdmin .Screenshot-image {
+  height: 456px;
+  background-size: 667px 456px;
+  background-image: url(../img/features/screenshots/themeable-admin.png);
+
+  @include respond-to(retina) {
+    background-image: url(../img/features/screenshots/themeable-admin_2x.png);
+  }
+}
+.Screenshot--themeableAdmin .Screenshot-text {
+  margin-top: 50px;
+}
+
+.Screenshot--notifications .Screenshot-image {
+  height: 403px;
+  background-size: 452px 403px;
+  background-image: url(../img/features/screenshots/notifications.png);
+
+  @include respond-to(retina) {
+    background-image: url(../img/features/screenshots/notifications_2x.png);
+  }
+}
+.Screenshot--notifications .Screenshot-text {
+  margin-top: 50px;
+}
+.Screenshot--notificationsPreferences .Screenshot-image {
+  height: 371px;
+  background-size: 494px 371px;
+  background-image: url(../img/features/screenshots/notifications-preferences.png);
+
+  @include respond-to(retina) {
+    background-image: url(../img/features/screenshots/notifications-preferences_2x.png);
+  }
+}
+.Screenshot--notificationsPreferences .Screenshot-text {
+  margin-top: 50px;
+}
+
+.Screenshot--tags .Screenshot-image {
+  height: 332px;
+  background-size: 416px 332px;
+  background-image: url(../img/features/screenshots/tags.png);
+
+  @include respond-to(retina) {
+    background-image: url(../img/features/screenshots/tags_2x.png);
+  }
+}
+.Screenshot--tagsPicker {
+  background: #4F6683;
+  margin-bottom: 0;
+}
+.Screenshot--tagsPicker .Screenshot-image {
+  height: 404px;
+  background-size: 652px 404px;
+  background-image: url(../img/features/screenshots/tags-picker.png);
+
+  @include respond-to(retina) {
+    background-image: url(../img/features/screenshots/tags-picker_2x.png);
+  }
+}
+.Screenshot--tagsPicker .Screenshot-text {
+  margin-top: 125px;
+}
+
+.Screenshot--mentionsComposer .Screenshot-image {
+  height: 239px;
+  background-size: 606px 239px;
+  background-image: url(../img/features/screenshots/mentions-composer.png);
+
+  @include respond-to(retina) {
+    background-image: url(../img/features/screenshots/mentions-composer_2x.png);
+  }
+}
+.Screenshot--mentionsPreview .Screenshot-image {
+  height: 231px;
+  background-size: 562px 231px;
+  background-image: url(../img/features/screenshots/mentions-preview.png);
+
+  @include respond-to(retina) {
+    background-image: url(../img/features/screenshots/mentions-preview_2x.png);
+  }
+}
+.Screenshot--mentionsReplies .Screenshot-image {
+  height: 261px;
+  background-size: 560px 261px;
+  background-image: url(../img/features/screenshots/mentions-replies.png);
+
+  @include respond-to(retina) {
+    background-image: url(../img/features/screenshots/mentions-replies_2x.png);
+  }
+}
+
+.Screenshot--permissions .Screenshot-image {
+  height: 423px;
+  background-size: 885px 423px;
+  background-image: url(../img/features/screenshots/permissions.png);
+
+  @include respond-to(retina) {
+    background-image: url(../img/features/screenshots/permissions_2x.png);
+  }
+}
+
+.OtherFeatures {
+  overflow: hidden;
+  margin-top: 25px;
+}
+.OtherFeature {
+  float: left;
+  width: 50%;
+  height: 250px;
+  box-sizing: border-box;
+  padding: 0 50px;
+  color: #888;
+}
+.OtherFeature h4 {
+  color: #444;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 1em 0 0;
+}
+.OtherFeatures-actions {
+  text-align: center;
+  padding: 50px 0;
+}
+.OtherFeatures-actions a {
+  margin: 0 4px;
+}
+
+.ComingSoon {
+  background: #EFF2F6;
+  text-align: center;
+  padding: 40px 0;
+}
+.ComingSoon h3 {
+  color: #536F90;
+  font-weight: normal;
+  font-size: 22px;
+  margin: 0;
+}
+.ComingSoon-items {
+  overflow: hidden;
+  max-width: 750px;
+  margin: 50px auto 0;
+}
+.ComingSoon-item {
+  display: inline-block;
+  width: 120px;
+  height: 120px;
+  vertical-align: top;
+}
+.ComingSoon-item img {
+  display: block;
+  margin: 0 auto 10px;
+}

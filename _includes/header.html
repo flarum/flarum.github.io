@@ -1,0 +1,18 @@
+<header class="Header">
+  <div class="container">
+    <h1 class="Header-brand">
+      <a href="{{ site.baseurl }}/">
+        <img src="{{ site.baseurl }}/img/logo.png" alt="{{ site.title }}" width="149" height="34">
+      </a>
+    </h1>
+
+    <nav class="Header-nav">
+      {% assign current = page.url | downcase | split: '/' %}
+      <a href="{{ site.baseurl }}/features" {% if current[1] == 'features' %}class="active"{% endif %}>Features</a>
+      <a href="{{ site.baseurl }}/download">Download</a>
+      <a href="{{ site.baseurl }}/docs">Documentation</a>
+      <a href="http://discuss.flarum.org">Community</a>
+      <a href="https://github.com/flarum/flarum">GitHub</a>
+    </nav>
+  </div>
+</header>

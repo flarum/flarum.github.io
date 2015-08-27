@@ -1,0 +1,29 @@
+.Download {
+  margin-top: 50px;
+  margin-bottom: 70px;
+  font-size: 18px;
+  color: #444;
+  margin-right: 450px;
+
+  @include respond-to(handhelds) {
+    margin-right: 0;
+  }
+}
+
+.Download-instructions {
+  float: right;
+  width: 400px;
+  margin-right: -450px;
+  color: #7E96B3;
+
+  h3 {
+    margin-top: 0;
+    font-weight: 300;
+  }
+
+  @include respond-to(handhelds) {
+    float: none;
+    margin-right: 0;
+    width: auto;
+  }
+}

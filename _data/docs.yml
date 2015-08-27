@@ -1,0 +1,22 @@
+- title: Preface
+  docs:
+  - 
+  - contributing
+  - faq
+
+- title: Using Flarum
+  docs:
+  - installation
+  - troubleshooting
+  - api
+
+- title: Building Extensions
+  docs:
+  - extend
+  - extend/packaging
+  - extend/domain
+  - extend/api
+  - extend/client
+  - extend/themes
+  - extend/localization
+  - extend/distribution

@@ -1,0 +1,25 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@mixin respond-to($media) {
+  @if $media == handhelds {
+    @media only screen and (max-width: 700px) { @content; }
+  }
+  @else if $media == tablets {
+    @media only screen and (max-width: 768px) { @content; }
+  }
+  @else if $media == retina {
+    @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) { @content; }
+  }
+}
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+	"animations",
+  "base",
+  "home",
+  "features",
+  "docs",
+  "download"
+;
