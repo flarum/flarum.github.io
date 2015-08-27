@@ -3,7 +3,11 @@ layout: docs
 title: Installation
 permalink: /docs/installation/
 ---
-Installing Flarum is easy. All you need is a server with **PHP 5.5+** and **MySQL 5.x**.
+## System Requirements
+
+* A web server: either Apache (with mod_rewrite) or Nginx
+* PHP 5.5+
+* MySQL 5+
 
 ## Web Installation
 
