@@ -7,7 +7,7 @@ permalink: /docs/installation/
 
 * A web server: either Apache (with mod_rewrite) or Nginx
 * PHP 5.5+
-* MySQL 5+
+* MySQL 5.5+
 
 ## Web Installation
 
