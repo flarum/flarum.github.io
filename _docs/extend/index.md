@@ -79,7 +79,7 @@ Throughout Flarum's back-end PHP code (i.e. the domain, API, and part of the cli
 
 All events that can be listened for are found in the `Flarum\Events` namespace.
 
-Listening for events is as simple as calling the `listen()` method on the event dispatcher, passing the class name of the event and a closure to handle the event. You will learn more about how to register event listeners in the [Packaging]({{ site.baseurl }}/docs/packaging) section.
+Listening for events is as simple as calling the `listen()` method on the event dispatcher, passing the class name of the event and a closure to handle the event. You will learn more about how to register event listeners in the [Packaging]({{ site.baseurl }}/docs/extend/packaging) section.
 
 ### Monkey Patching
 
