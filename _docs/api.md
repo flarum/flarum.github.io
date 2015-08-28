@@ -12,7 +12,7 @@ The API uses token-based authentication. Some endpoints do not require authentic
     POST /api/token HTTP/1.1
 
     {
-        "idenitification": "Toby",
+        "identification": "Toby",
         "password": "pass7word"
     }
     
