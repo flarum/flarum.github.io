@@ -53,6 +53,19 @@ You'll need to set up URL rewriting in order to install and run Flarum. Flarum c
     }
 ```
 
+## SMTP
+
+There's currently no GUI to configure SMTP (see [#258](https://github.com/flarum/core/issues/258)) but you can enter your details in manually in the database config table:
+
+```
+mail_driver: smtp
+mail_host: ...
+mail_port: ...
+mail_username: ...
+mail_password: ...
+mail_encryption: ...
+```
+
 ## Importing Data
 
 Eventually we hope to build data importers so you can migrate to Flarum from other forum software. However, it is far too early at this stage – we need to achieve stability first!
