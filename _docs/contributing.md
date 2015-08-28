@@ -15,7 +15,7 @@ To report a bug, please create an issue in the relevant GitHub repository:
 
 Want to help us build Flarum? Great! Contributions are welcome, and are accepted via pull requests. Please review these guidelines before submitting any pull requests.
 
-Check out the [Roadmap](https://github.com/flarum/core/issues/74) for an overview of what needs to be done. In order to make it as easy as possible for people to start hacking Flarum, we've written detailed descriptions for many of the GitHub issues. They contain pointers on what needs to be done and where to look. [See if there's anything that you'd like to do!](https://github.com/issues?utf8=✓&q=is%3Aopen+is%3Aissue+user%3Aflarum+)
+Check out the [Roadmap](https://github.com/flarum/core/issues/74) for an overview of what needs to be done. In order to make it as easy as possible for people to start hacking Flarum, we've written detailed descriptions for many of the GitHub issues. They contain pointers on what needs to be done and where to look. [See if there's anything that you'd like to do!](https://github.com/flarum/core/issues?q=is%3Aopen+is%3Aissue+label%3A%22Good+for+New+Contributors%22)
 
 ### Development Environment
 
