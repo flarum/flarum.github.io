@@ -7,7 +7,7 @@ Flarum is designed to be lightweight and highly extensible. In fact, most of the
 
 In order to achieve this extensibility, Flarum has been built with rich APIs and extension points. This section of the documentation aims to teach you how Flarum works, and how to use the APIs so that you can build your own Extensions.
 
-> **The Extension API is unstable and will change over the next few months as we refine it.** Additionally, this documentation is a work in progress. [We would love your feedback!](https://github.com/flarum/core/issues/)
+> **The Extension API is unstable and will change over the next few months as we refine it.** Additionally, this documentation is a work in progress. [We would love your feedback!](https://github.com/flarum/core/issues/246)
 
 ## Core vs. Extensions
 
