@@ -35,9 +35,9 @@ vagrant up
 
 If you can't use Vagrant for whatever reason, you can still set up Flarum for development on your own local server. You'll need to install [Composer](), [Node.js](), and [Gulp]() on your system. Clone the flarum/flarum repository as above, and then run the [relevant commands](https://github.com/flarum/flarum/blob/master/flarum/vagrant/environment.sh) to install Flarum's dependencies.
 
-Once you have the core installed, you'll probably also want to pull in some of the extensions that are bundled with Flarum. Clone each [extension repository](https://github.com/flarum) into your `extensions` directory, and follow the included instructions to install dependencies and compile the assets.
+Once you have the core installed, you'll probably also want to pull in some of the extensions that are bundled with Flarum. Clone each [extension repository](https://github.com/flarum) into your `extensions` directory, and follow the included instructions to install dependencies and compile the assets. (Generally this means running `composer install` in the root, then `npm install` inside the js/admin and js/forum directories.)
 
-### Guidelines
+### Pull Request Guidelines
 
 * Send a coherent commit history, making sure each individual commit in your pull request is meaningful. If you had to make multiple intermediate commits while developing, please [squash](http://git-scm.com/book/en/Git-Tools-Rewriting-History) them before submitting.
 * You may also need to [rebase](http://git-scm.com/book/en/Git-Branching-Rebasing) to avoid merge conflicts.
