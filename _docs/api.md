@@ -3,7 +3,7 @@ layout: docs
 title: Using the API
 permalink: /docs/api/
 ---
-Every Flarum forum exposes a publicly-accessible JSON API that can read and write forum data. It conforms to the [JSON-API 1.0 specification]().
+Every Flarum forum exposes a publicly-accessible JSON API that can read and write forum data. It conforms to the [JSON-API 1.0 specification](http://jsonapi.org/).
 
 ## Authentication
 
