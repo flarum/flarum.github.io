@@ -5,7 +5,7 @@ permalink: /docs/installation/
 ---
 ## System Requirements
 
-* A web server: either Apache (with mod_rewrite) or Nginx
+* A web server: either Apache (with mod_rewrite), Nginx or Lighttpd
 * PHP 5.5+
 * MySQL 5.5+
 
@@ -51,6 +51,16 @@ You'll need to set up URL rewriting in order to install and run Flarum. Flarum c
         fastcgi_index index.php;
         include fastcgi_params;
     }
+```
+
+### Lighttpd
+
+```
+url.rewrite-if-not-file = (
+    "/admin.*" => "/admin.php",
+    "/api.*"   => "/api.php",
+    "/.*"      => "/index.php"
+)
 ```
 
 ## SMTP
