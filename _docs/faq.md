@@ -16,17 +16,9 @@ If you don't find anything, then your next step is to work out whether your feat
 
 If you're positive that it belongs in core, as a bundled extension, or if you're not sure, then [go crazy](https://discuss.flarum.org/t/features)!
 
-## What server specs do I need to run Flarum?
+## Will I be able to upgrade from beta to subsequent releases?
 
-As long as your toaster has at least two slots for bread and is plugged into a wall power point, Flarum should install and run just fine.
-
-But seriously, Flarum requires **PHP 5.5+** and **MySQL 5.x**. The GD or Imagick extensions are required to process avatars. We've tested Flarum on servers with Apache and Nginx. It should run well on any low-end shared host or VPS – let us know your experience on the [forums](http://discuss.flarum.org)!
-
-## How much does Flarum cost?
-
-Flarum is available to you at the very low cost of absolutely nothing. Flarum is a 100% free and open-source product and will continue to be this way forever. No, seriously. Forever.
-
-However, we do accept donations. They are in no way required to use the software, but if you would like to show you appreciation for the product in the form of a financial donation, you can do so [here]({{ site.baseurl }}/donate). Donations will be used to cover the costs of hosting and pay for dedicated development time.
+Yes! However, the upgrade process may require you to get your hands a little dirty. We'll do our best to ensure it's as easy as possible.
 
 ## Will I be able to migrate my forum to Flarum?
 
@@ -36,7 +28,7 @@ Yes, but not for a while. Our focus right now is on getting Flarum stable and fe
 
 It's impossible for us to say at the moment – there are too many variables! You can follow our progress on the [Roadmap]({{ site.baseurl }}/roadmap).
 
-## Why can't I format my posts?
+## How can I format my posts?
 
 Flarum currently does not have a visual editor – it's just something we didn't get to in time for beta. Rest assured, it is planned and will be available in the core soon.
 
