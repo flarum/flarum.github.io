@@ -7,9 +7,7 @@ permalink: /docs/contributing/
 
 If you find a bug, we'd like to know about it! Remember that the goal of a bug report is to make it easy for us to replicate the bug and develop a fix. Therefore, you should include as much relevant information as possible, and communicate it in a clear, factual way. [This article](http://www.chiark.greenend.org.uk/~sgtatham/bugs.html) is a great resource on how to report bugs effectively.
 
-To report a bug, please create an issue in the relevant GitHub repository:
-
-[**Core**](https://github.com/flarum/core) &nbsp; [BBCode](https://github.com/flarum/bbcode) &nbsp; [Emoji](https://github.com/flarum/emoji) &nbsp; [Likes](https://github.com/flarum/likes) &nbsp; [Lock](https://github.com/flarum/lock) &nbsp; [Markdown](https://github.com/flarum/markdown) &nbsp; [Mentions](https://github.com/flarum/mentions) &nbsp; [Pusher](https://github.com/flarum/pusher) &nbsp; [Sticky](https://github.com/flarum/sticky) &nbsp; [Subscriptions](https://github.com/flarum/Subscriptions) &nbsp; [Suspend](https://github.com/flarum/suspend) &nbsp; [Tags](https://github.com/flarum/tags)
+To report a bug, create an issue in the [flarum/core GitHub repository](https://github.com/flarum/core/issues). Please search beforehand to see if your issue has already been reported.
 
 ## Contributing Code
 
