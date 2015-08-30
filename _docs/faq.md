@@ -34,6 +34,6 @@ Flarum currently does not have a visual editor – it's just something we didn'
 
 Despite not having a visual editor at the moment, Flarum does support Markdown and BBCode. Markdown is a plain text format for writing structured documents, based on conventions used for indicating formatting in email and usenet posts. If you are completely new to Markdown, check out [this cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) to help you with formatting your posts on Flarum.
 
-## Will Flarum be localized for other languages?
+## How do I translate Flarum into my language?
 
-Yes, depending on community contribution! We already have a number of awesome members offering their expertise to help with future localization. For anyone interested in getting involved in localization, check out the [Localization docs]({{ site.baseurl }}/docs/extend/localization), as well as [this discussion](http://discuss.flarum.org/d/336-potential-l10n-stumbling-blocks).
+At this stage there is some preliminary documentation about [Localization]({{ site.baseurl }}/docs/extend/localization), but this is intended for developers. If you are not a developer, we kindly ask that you wait until we have properly implemented and documented the language pack creation process. Thanks for your patience!
