@@ -3,17 +3,6 @@ layout: docs
 title: Installation
 permalink: /docs/installation/
 ---
-- [System Requirements](#system-requirements)
-- [Web Installation](#web-installation)
-- [URL Rewriting](#url-rewriting)
-    - [Apache](#apache)
-    - [Nginx](#nginx)
-    - [Lighttpd](#lighttpd)
-- [Troubleshooting](#troubleshooting)
-    - [Known Issues](#known-issues)
-- [SMTP](#smtp)
-- [Importing Data](#importing-data)
-
 <a name="system-requirements"></a>
 
 ## System Requirements
@@ -96,9 +85,9 @@ If you're having a problem installing Flarum, check out the [Installation tag](h
 * Currently the installer does not validate input correctly; if you enter an invalid admin username, the installer will silently fail. Usernames must only contain letters, numbers, dashes, and underscores.
 * The installer will crash if the `flarum/storage/framework/views` directory is not writable. Make sure PHP can write to this directory.
 
-<a name="smtp"></a>
+<a name="configuring-smtp"></a>
 
-## SMTP
+## Configuring SMTP
 
 There's currently no GUI to configure SMTP (see [#258](https://github.com/flarum/core/issues/258)). For now you can enter your details in manually in the `config` database table using a tool like phpMyAdmin:
 
