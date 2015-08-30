@@ -3,42 +3,58 @@ layout: docs
 title: Installation
 permalink: /docs/installation/
 ---
+- [System Requirements](#system-requirements)
+- [Web Installation](#web-installation)
+- [URL Rewriting](#url-rewriting)
+    - [Apache](#apache)
+    - [Nginx](#nginx)
+    - [Lighttpd](#lighttpd)
+- [Troubleshooting](#troubleshooting)
+    - [Known Issues](#known-issues)
+- [SMTP](#smtp)
+- [Importing Data](#importing-data)
+
+<a name="system-requirements"></a>
+
 ## System Requirements
 
-* A web server: either Apache (with mod_rewrite), Nginx or Lighttpd
-* PHP 5.5+
-* MySQL 5.5+
+* A web server: **Apache** (with mod_rewrite), **Nginx**, or **Lighttpd**
+* **PHP 5.5+** with the following extensions: mbstring, pdo_mysql, openssl, json, gd, dom
+* **MySQL 5.5+**
+
+<a name="web-installation"></a>
 
 ## Web Installation
 
-1. Download and unzip the beta onto your webserver.
-2. Go to your forum's root in a web browser.
-3. Enter your details and click "Install Flarum".
+1. [Download]({{ site.baseurl }}/download) and unzip the beta onto your webserver.
+2. Configure URL rewriting (see below).
+3. Go to your forum's root in a web browser.
+4. Enter your details and click "Install Flarum".
 
-## Console Installation
-
-1. Download and unzip the beta onto your webserver.
-2. Go to your forum's root in a terminal and run `php flarum/flarum install`.
-3. Enter your details.
+<a name="url-rewriting"></a>
 
 ## URL Rewriting
 
-You'll need to set up URL rewriting in order to install and run Flarum. Flarum comes with a `.htaccess` file which contains the appropriate rules for Apache. If you are using another web server, you'll need to add the following rules to your configuration file:
+<a name="apache"></a>
+
+### Apache
+
+Flarum includes a `.htaccess` file – make sure it's been uploaded correctly. If you're using shared hosting, confirm with your hosting provider that `mod_rewrite` is enabled. Otherwise, you may need to add the following to your Apache configuration:
+
+    <Directory "/path/to/your/forum">
+        AllowOverride All
+    </Directory>
+
+<a name="nginx"></a>
 
 ### Nginx
 
-```
-    location / {
-        try_files $uri $uri/ /index.php?$query_string;
-    }
+Add the following lines to your server's configuration block:
 
-    location /api {
-        try_files $uri $uri/ /api.php?$query_string;
-    }
-    
-    location /admin {
-        try_files $uri $uri/ /admin.php?$query_string;
-    }
+```
+    location / { try_files $uri $uri/ /index.php?$query_string; }
+    location /api { try_files $uri $uri/ /api.php?$query_string; }
+    location /admin { try_files $uri $uri/ /admin.php?$query_string; }
 
     location /flarum {
         deny all;
@@ -53,19 +69,38 @@ You'll need to set up URL rewriting in order to install and run Flarum. Flarum c
     }
 ```
 
+<a name="lighttpd"></a>
+
 ### Lighttpd
 
+Add the following lines to your server's configuration block:
+
 ```
-url.rewrite-if-not-file = (
-    "/admin.*" => "/admin.php",
-    "/api.*"   => "/api.php",
-    "/.*"      => "/index.php"
-)
+    url.rewrite-if-not-file = (
+        "/admin.*" => "/admin.php",
+        "/api.*"   => "/api.php",
+        "/.*"      => "/index.php"
+    )
 ```
+
+<a name="troubleshooting"></a>
+
+## Troubleshooting
+
+If you're having a problem installing Flarum, check out the [Installation tag](http://discuss.flarum.org/t/installation) on the support forum. Someone might've had the same problem as you! If not, start a discussion and we'll do our best to help.
+
+<a name="known-issues"></a>
+
+### Known Issues
+
+* Currently the installer does not validate input correctly; if you enter an invalid admin username, the installer will silently fail. Usernames must only contain letters, numbers, dashes, and underscores.
+* The installer will crash if the `flarum/storage/framework/views` directory is not writable. Make sure PHP can write to this directory.
+
+<a name="smtp"></a>
 
 ## SMTP
 
-There's currently no GUI to configure SMTP (see [#258](https://github.com/flarum/core/issues/258)) but you can enter your details in manually in the database config table:
+There's currently no GUI to configure SMTP (see [#258](https://github.com/flarum/core/issues/258)). For now you can enter your details in manually in the `config` database table using a tool like phpMyAdmin:
 
 ```
 mail_driver: smtp
@@ -75,6 +110,8 @@ mail_username: ...
 mail_password: ...
 mail_encryption: ...
 ```
+
+<a name="importing-data"></a>
 
 ## Importing Data
 

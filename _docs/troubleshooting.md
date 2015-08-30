@@ -3,16 +3,7 @@ layout: docs
 title: Troubleshooting
 permalink: /docs/troubleshooting/
 ---
-## Installation
-
-If you're having a problem installing Flarum, check out the [Installation tag](http://discuss.flarum.org/t/installation) on the support forum. Someone might've had the same problem as you! If not, start a discussion and we'll do our best to help.
-
-### Known Issues
-
-* Currently the installer does not validate input correctly; if you enter an invalid admin username, the installer will silently fail. Usernames must only contain letters, numbers, dashes, and underscores.
-* The installer will crash if the `flarum/storage/framework/views` directory is not writable. Make sure PHP can write to this directory.
-
-## Debugging
+## Debugging Tools
 
 If you encounter an error while using your forum, the first thing to do is enable debug mode. Simply open up config.php with a text editor, and change the `debug` value to `true`. This will cause Flarum to show detailed error messages, giving you an insight into what's going wrong.
 
@@ -23,3 +14,22 @@ ini_set('display_errors', 'On');
 ```
 
 *Be sure to revert these changes once the error is fixed!*
+
+## Oops! Something went wrong
+
+If you get a red "Oops! Something went wrong" message while using your forum, enable debug mode as outlined above, then follow these steps to find out more information about what's going wrong:
+
+### Google Chrome
+
+1. Open the Inspector: View > Developer > JavaScript Console
+2. Choose the *Network* tab
+3. Repeat the action that caused the error message to appear
+4. Click on the red request that has failed
+5. Select the *Response* tab and include the contents in your support request
+
+### Mozilla Firefox
+
+1. Open the Inspector: Tools > Web Developer > Network
+2. Repeat the action that caused the error message to appear
+3. Click on the red request that has failed
+5. Select the *Response* tab and include the contents in your support request
