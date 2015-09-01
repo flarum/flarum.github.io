@@ -44,7 +44,7 @@ You can then pass the token in an Authentication header in subsequent requests:
 
 ## Posts
 
-* `GET /api/posts` - get all discussions
+* `GET /api/posts` - get all posts
     * `filter[discussion]` - filter by discussion ID
     * `filter[user]` - filter by user ID
     * `filter[number]` - filter by number (position within the discussion)
