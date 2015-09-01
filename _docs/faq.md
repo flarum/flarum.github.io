@@ -16,7 +16,7 @@ Before you do anything, we'd be grateful if you could check a few places to see 
 
 If you don't find anything, then your next step is to work out whether your feature is actually a good fit for Flarum's core. [Read about the difference]({{ site.baseurl }}/docs/extend/) between core, bundled extensions, and third-party extensions. Is this something that the majority of forums will want to use – or is it something that would be better suited to a third-party extension?
 
-If you're positive that it belongs in core, as a bundled extension, or if you're not sure, then [go crazy](https://discuss.flarum.org/t/features)!
+If you're positive that it belongs in core, as a bundled extension, or if you're not sure, then [go crazy](http://discuss.flarum.org/t/features)!
 
 <a name="upgrade"></a>
 
