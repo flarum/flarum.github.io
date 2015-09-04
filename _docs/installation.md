@@ -8,7 +8,7 @@ permalink: /docs/installation/
 ## System Requirements
 
 * A web server: **Apache** (with mod_rewrite), **Nginx**, or **Lighttpd**
-* **PHP 5.5+** with the following extensions: mbstring, pdo_mysql, openssl, json, gd, dom
+* **PHP 5.5+** with the following extensions: mbstring, pdo_mysql, openssl, json, gd, dom, fileinfo
 * **MySQL 5.5+**
 
 <a name="web-installation"></a>
