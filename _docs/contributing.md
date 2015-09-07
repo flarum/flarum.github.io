@@ -31,7 +31,7 @@ vagrant up
 3 - Add an entry to your /etc/hosts file: `192.168.29.29 flarum.dev`
 4 - Visit flarum.dev in a browser.
 
-If you can't use Vagrant for whatever reason, you can still set up Flarum for development on your own local server. You'll need to install [Composer](), [Node.js](), and [Gulp]() on your system. Clone the flarum/flarum repository as above, and then run the [relevant commands](https://github.com/flarum/flarum/blob/master/flarum/vagrant/environment.sh) to install Flarum's dependencies.
+If you can't use Vagrant for whatever reason, you can still set up Flarum for development on your own local server. You'll need to install [Composer](https://getcomposer.org/download/), [Node.js](https://nodejs.org/en/download/), and [Gulp](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md) on your system. Clone the flarum/flarum repository as above, and then run the [relevant commands](https://github.com/flarum/flarum/blob/master/flarum/vagrant/environment.sh) to install Flarum's dependencies.
 
 Once you have the core installed, you'll probably also want to pull in some of the extensions that are bundled with Flarum. Clone each [extension repository](https://github.com/flarum) into your `extensions` directory, and follow the included instructions to install dependencies and compile the assets. (Generally this means running `composer install` in the root, then `npm install` inside the js/admin and js/forum directories.)
 
