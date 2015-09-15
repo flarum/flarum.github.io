@@ -3,10 +3,15 @@
   margin-bottom: 70px;
   font-size: 18px;
   color: #444;
-  margin-right: 450px;
+  padding-right: 450px;
+  overflow: hidden;
 
   @include respond-to(handhelds) {
     margin-right: 0;
+  }
+
+  p.lead {
+    margin-top: 0;
   }
 }
 
