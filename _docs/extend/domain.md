@@ -15,12 +15,16 @@ This is achieved through **migrations**, which are based on [Laravel's implement
 
 	2015_02_24_000000_create_tags_table.php
 
-The file should contain a class, with the same description, that extends the `Flarum\Migrations\Migration` class. A migration class contains two methods: `up` and `down`. The `up` method is called whenever your extension is enabled (if the migration has not been run previously), so you can add new tables, columns, or indexes to the database, or perform any other setup tasks. The `down` method is called if the extension is uninstalled, and should reverse the operations performed by the `up` method.
+The file should contain a class, with the same description, that extends the `Flarum\Migrations\Migration` class. It must be under the namespace `Flarum\Migrations\{ExtensionName}`.
+
+A migration class contains two methods: `up` and `down`. The `up` method is called whenever your extension is enabled (if the migration has not been run previously), so you can add new tables, columns, or indexes to the database, or perform any other setup tasks. The `down` method is called if the extension is uninstalled, and should reverse the operations performed by the `up` method.
 
 Migrations have access to a `$schema` variable, which is an instance of [Laravel's schema builder](http://laravel.com/docs/5.1/migrations#writing-migrations). This should be used to make changes to the database schema:
 
 ```php
 <?php
+
+namespace Flarum\Migrations\Tags;
 
 use Illuminate\Database\Schema\Blueprint;
 use Flarum\Migrations\Migration;
