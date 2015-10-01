@@ -7,6 +7,7 @@
 - title: Using Flarum
   docs:
   - installation
+  - languages
   - troubleshooting
   - api
 
@@ -18,5 +19,13 @@
   - extend/api
   - extend/client
   - extend/themes
-  - extend/localization
+  - extend/internationalization
   - extend/distribution
+
+- title: Translating Flarum
+  docs:
+  - translate
+  - translate/packaging
+  - translate/localization
+  - translate/updating
+  - translate/distribution

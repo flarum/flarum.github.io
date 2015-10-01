@@ -28,7 +28,7 @@ Once you've filled out all the details, the utility will create a new directory 
 * **flarum.json** Contains meta information about your extension (title, description, author, dependencies). More information a bit further down.
 * **js/** Where your extension's JavaScript lives. You'll learn more about this in [Extending the Client]({{ site.baseurl }}/docs/extend/client).
 * **less/** Where your extension's CSS styles live. You'll learn more about this in [Theming]({{ site.baseurl }}/docs/extend/theming).
-* **locale/** Where your extension's translations live. You'll learn more about this in [Localization]({{ site.baseurl }}/docs/extend/localization).
+* **locale/** Where your extension's translations live. You'll learn more about this in [Internationalization]({{ site.baseurl }}/docs/extend/internationalization).
 * **migrations/** Database migrations that are run when your extension is installed/upgraded/uninstalled. You'll learn more about these in [Extending the Domain]({{ site.baseurl }}/docs/extend/domain).
 * **src/** Where your extension's back-end source code lives, autoloaded by Composer using the PSR-4 standard.
 

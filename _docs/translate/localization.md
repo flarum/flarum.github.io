@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Localization
-permalink: /docs/extend/localization/
+permalink: /docs/translate/localization/
 ---
 ## Translations
 
