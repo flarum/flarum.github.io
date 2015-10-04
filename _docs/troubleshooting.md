@@ -3,11 +3,15 @@ layout: docs
 title: Troubleshooting
 permalink: /docs/troubleshooting/
 ---
-## Debugging Tools
+If Flarum isn't installing or working as expected, the first thing you should do is *check again* whether your environment meets the [system requirements](http://flarum.org/docs/installation/). If you're missing something that Flarum needs to run (such as the PHP `fileinfo` extension, for example) you'll need to remedy that first.
 
-If you encounter an error while using your forum, the first thing to do is enable debug mode. Simply open up config.php with a text editor, and change the `debug` value to `true`. This will cause Flarum to show detailed error messages, giving you an insight into what's going wrong.
+Next, you should take a few minutes to search the [Support forum](http://discuss.flarum.org/t/support) and the [issue tracker](https://github.com/flarum/core/issues). It's possible that someone has already reported the problem, and a fix is either available or on the way. If you've searched thoroughly and can't find any information about the problem, it's time to start troubleshooting.
 
-If you're still getting a blank page, try setting the `display_errors` option to `On` in your php.ini configuration. Alternatively, you can add the following line of code to the top of `flarum/bootstrap.php`:
+## Step 1: Turn on debug mode.
+
+Before you proceed, you should enable Flarum's debugging tools. Simply open up **config.php** with a text editor, change the `debug` value to `true`, and save the file. This will cause Flarum to display detailed error messages, giving you an insight into what's going wrong.
+
+If you've been seeing blank pages and the above change doesn't help, try setting `display_errors` to `On` in your **php.ini** configuration file. Alternatively, you can add the following line of code to the top of your **flarum/bootstrap.php** file:
 
 ```php
 ini_set('display_errors', 'On');
@@ -15,21 +19,47 @@ ini_set('display_errors', 'On');
 
 *Be sure to revert these changes once the error is fixed!*
 
-## Oops! Something went wrong
+## Step 2: Reproduce the issue.
 
-If you get a red "Oops! Something went wrong" message while using your forum, enable debug mode as outlined above, then follow these steps to find out more information about what's going wrong:
+Try to make the problem happen again. Pay careful attention to what you're doing when it occurs. Does it happen every time, or only now and then? Try changing a setting that you think might affect the problem, or the order in which you're doing things. Does it happen under some conditions, but not others?
+
+If you've recently added or updated an extension, you should disable it temporarily to see if that makes the problem go away. Make sure all of your extensions were meant to be used with the version of Flarum you're running. Outdated extensions can cause a variety of issues.
+
+Somewhere along the way you may get an idea about what's causing your issue, and figure out a way to fix it. But even if that doesn't happen, you will probably run across a few valuable clues that will help us figure out what's going on, once you've filed your bug report.
+
+## Step 3: Collect information.
+
+If it looks like you're going to need help solving the problem, it's time to get serious about collecting data. Look for error messages or other information about the problem in the following places: 
+
+- Displayed on the actual page
+- Displayed in the browser console
+- Recorded in the server's error log
+
+Copy any messages to a text file and jot down a few notes about *when* the error occurred, *what* you were doing at the time, and so on. Be sure to include any insights you may have gleaned about the conditions under which the issue does and doesn't occur. Add as much information as possible about your server environment: OS version, web server version, PHP version and handler, et cetera.
+
+## Step 4: Prepare a report.
+
+Once you have gathered all the information you can about the problem, you're ready to file a bug report. Please post it as a new discussion in the [Support forum](http://discuss.flarum.org/t/support); you'll find more information about how to report bugs on the [Contributing](http://flarum.org/docs/contributing/) page. We also recommend that you read through [this article](http://www.chiark.greenend.org.uk/~sgtatham/bugs.html) for some useful pointers on how to write an effective bug report.
+
+If you discover something new about the issue after filing your report, please add that information at the bottom of your original post. It's a good idea to file a report even if you have solved the problem on your own, since other users may also benefit from your solution. If you've found a temporary workaround for the problem, be sure to mention that as well. 
+
+___
+
+## Oops! Something went wrong...
+
+If you get a red "Oops! Something went wrong..." message while using your forum, enable debug mode as outlined above, then follow these steps to find out more information about what's going wrong:
 
 ### Google Chrome
 
-1. Open the Inspector: View > Developer > JavaScript Console
-2. Choose the *Network* tab
-3. Repeat the action that caused the error message to appear
-4. Click on the red request that has failed
-5. Select the *Response* tab and include the contents in your support request
+1. Open the Inspector: View > Developer > JavaScript Console.
+2. Choose the *Network* tab.
+3. Repeat the action that caused the error message to appear.
+4. Click on the red request that has failed.
+5. Select the *Response* tab and include the contents in your support request.
 
 ### Mozilla Firefox
 
-1. Open the Inspector: Tools > Web Developer > Network
-2. Repeat the action that caused the error message to appear
-3. Click on the red request that has failed
-5. Select the *Response* tab and include the contents in your support request
+1. Open the Inspector: Tools > Web Developer > Network.
+2. Repeat the action that caused the error message to appear.
+3. Click on the red request that has failed.
+5. Select the *Response* tab and include the contents in your support request.
