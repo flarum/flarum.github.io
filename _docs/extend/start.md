@@ -10,7 +10,7 @@ Before we get started, there's something you should be aware of: Flarum uses som
 * **JavaScript, ES6, and JSX.** Learn about [ES6 features](http://git.io/es6features) and [JSX syntax](https://facebook.github.io/react/docs/jsx-in-depth.html).
 * **Mithril.js.** Only a [basic understanding](http://mithril.js.org/getting-started.html) is necessary.
 
-Don't fret if you get stuck – there are plenty of people on the [Community Forum](http://discuss.flarum.org/t/extensibility) and [Gitter Chat](https://gitter.im/flarum/flarum) who are more than willing to help. Maybe one day, when you're a Level 99 Black Belt Flarum Extension Zen Master, you can pass on your knowledge too!
+Don't fret if you get stuck – there are plenty of people on the [Community Forum](http://discuss.flarum.org/t/extensibility) and [Gitter Chat](https://gitter.im/flarum/flarum) who are more than willing to help.
 
 ## Getting Started
 
