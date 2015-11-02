@@ -41,25 +41,4 @@ Copy any messages to a text file and jot down a few notes about *when* the error
 
 Once you have gathered all the information you can about the problem, you're ready to file a bug report. Please post it as a new discussion in the [Support forum](http://discuss.flarum.org/t/support); you'll find more information about how to report bugs on the [Contributing](http://flarum.org/docs/contributing/) page. We also recommend that you read through [this article](http://www.chiark.greenend.org.uk/~sgtatham/bugs.html) for some useful pointers on how to write an effective bug report.
 
-If you discover something new about the issue after filing your report, please add that information at the bottom of your original post. It's a good idea to file a report even if you have solved the problem on your own, since other users may also benefit from your solution. If you've found a temporary workaround for the problem, be sure to mention that as well. 
-
-___
-
-## Oops! Something went wrong...
-
-If you get a red "Oops! Something went wrong..." message while using your forum, enable debug mode as outlined above, then follow these steps to find out more information about what's going wrong:
-
-### Google Chrome
-
-1. Open the Inspector: View > Developer > JavaScript Console.
-2. Choose the *Network* tab.
-3. Repeat the action that caused the error message to appear.
-4. Click on the red request that has failed.
-5. Select the *Response* tab and include the contents in your support request.
-
-### Mozilla Firefox
-
-1. Open the Inspector: Tools > Web Developer > Network.
-2. Repeat the action that caused the error message to appear.
-3. Click on the red request that has failed.
-5. Select the *Response* tab and include the contents in your support request.
+If you discover something new about the issue after filing your report, please add that information at the bottom of your original post. It's a good idea to file a report even if you have solved the problem on your own, since other users may also benefit from your solution. If you've found a temporary workaround for the problem, be sure to mention that as well.

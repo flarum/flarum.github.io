@@ -3,20 +3,11 @@ layout: docs
 title: FAQ
 permalink: /docs/faq/
 ---
-<a name="feature"></a>
+<a name="stability"></a>
 
-## I have an idea/request for a feature. What should I do?
+## When will Flarum be stable?
 
-Before you do anything, we'd be grateful if you could check a few places to see if your idea has already been talked about:
-
-* See the [Features]({{ site.baseurl }}/features) page to see an overview of what's done and what's coming soon.
-* See the [Roadmap]({{ site.baseurl }}/roadmap) for an overview of what we are planning to implement.
-* Search the [GitHub issues]({{ site.baseurl }}/issues) to see if your idea is planned.
-* Search the [forum](http://discuss.flarum.org) to see if your idea has already been discussed.
-
-If you don't find anything, then your next step is to work out whether your feature is actually a good fit for Flarum's core. [Read about the difference]({{ site.baseurl }}/docs/extend/) between core, bundled extensions, and third-party extensions. Is this something that the majority of forums will want to use – or is it something that would be better suited to a third-party extension?
-
-If you're positive that it belongs in core, as a bundled extension, or if you're not sure, then [go crazy](http://discuss.flarum.org/t/features)!
+It's impossible for us to say at the moment – there are too many variables! You can follow our progress on the [Roadmap]({{ site.baseurl }}/roadmap).
 
 <a name="upgrade"></a>
 
@@ -24,17 +15,29 @@ If you're positive that it belongs in core, as a bundled extension, or if you're
 
 Yes! However, the upgrade process may require you to get your hands a little dirty. We'll do our best to ensure it's as easy as possible.
 
+<a name="customization"></a>
+
+## How do I add a header logo, links, or favicon?
+
+Adding a favicon should be as simple as plopping a `favicon.ico` file at the root of your domain. There's no easy way to add a header logo/links right now, but it's coming in a beta release in the near future. Thanks for your patience!
+
+<a name="integration"></a>
+
+## Can I integrate Flarum with WordPress/Laravel/etc.?
+
+Wouldn't it be inte-*great*! Right now it's not possible, but we do hope to work on integrations such as these in the future. If you're a developer, feel free to kickstart the process!
+
+<a name="feature"></a>
+
+## Will Flarum have [insert feature here]? When? Why not?
+
+We would love to build countless features and extensions for Flarum, but first things first: Our focus is on the essentials and stability. Check out the [Roadmap]({{ site.baseurl }}/roadmap) for an overview of what we are planning to implement.
+
 <a name="migration"></a>
 
 ## Will I be able to migrate my forum to Flarum?
 
 Yes, but not for a while. Our focus right now is on getting Flarum stable and feature-complete. Once we're confident that Flarum is ready to be used in production, we'll start building tools to import data from other forum software like esoTalk, FluxBB, phpBB, and others.
-
-<a name="stability"></a>
-
-## When will Flarum be stable?
-
-It's impossible for us to say at the moment – there are too many variables! You can follow our progress on the [Roadmap]({{ site.baseurl }}/roadmap).
 
 <a name="formatting"></a>
 
@@ -48,4 +51,4 @@ Despite not having a visual editor at the moment, Flarum does support Markdown a
 
 ## How do I translate Flarum into my language?
 
-At this stage there is some preliminary documentation about [Localization]({{ site.baseurl }}/docs/extend/localization), but this is intended for developers. If you are not a developer, we kindly ask that you wait until we have properly implemented and documented the language pack creation process. Thanks for your patience!
+We're currently working on documentation for the language pack creation process. We kindly ask that you wait until it is ready before attempting to translate Flarum. Thanks for your patience!

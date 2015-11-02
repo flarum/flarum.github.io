@@ -14,13 +14,7 @@
 - title: Building Extensions
   docs:
   - extend
-  - extend/packaging
-  - extend/domain
-  - extend/api
-  - extend/client
-  - extend/themes
-  - extend/internationalization
-  - extend/distribution
+  - extend/start
 
 - title: Translating Flarum
   docs:
