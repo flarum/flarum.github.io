@@ -23,10 +23,10 @@ The API uses token-based authentication. Some endpoints do not require authentic
         "userId": "1"
     }
 
-You can then pass the token in an Authentication header in subsequent requests:
+You can then pass the token in an Authorization header in subsequent requests:
 
     GET /api/forum HTTP/1.1
-    Authentication: Token YACub2KLfe8mfmHPcUKtt6t2SMJOGPXnZbqhc3nX
+    Authorization: Token YACub2KLfe8mfmHPcUKtt6t2SMJOGPXnZbqhc3nX
 
 ## Forum
 
