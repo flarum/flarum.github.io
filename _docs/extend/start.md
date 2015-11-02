@@ -88,7 +88,7 @@ For example:
 * When post data is about to be saved to the database, Flarum fires the `PostWillBeSaved` event. An "Attachments" Extension could listen for this event and react by validating any uploaded files, and queing them to be saved to the database too.
 * When the page HTML is about to be rendered, Flarum fires the `ConfigureClientView` event. A theme Extension could listen for this event and react by adding some CSS code to the page.
 
-Get the idea? Great! There are dozens of events you can listen for, and they're all found under the [`Flarum\Event` namespace]({{ site.baseurl }}/api/0.1.0/php/Flarum/Event.html). Go ahead, have a squiz!
+Get the idea? Great! There are dozens of events you can listen for, and they're all found under the [`Flarum\Event` namespace](http://apidocs.flarum.org/0.1.0/php/Flarum/Event.html). Go ahead, have a squiz!
 
 ### Event Handlers
 
@@ -109,7 +109,7 @@ return function (Dispatcher $events) {
 
 Great – we've hooked up a handler. But we still need to make it do something!
 
-Because Flarum events are classes, they usually contain a bunch of useful data for us to work with. In our case, let's take a look at the [`PostWillBeSaved` event documentation]({{ site.baseurl }}/api/0.1.0/php/Flarum/Event/PostWillBeSaved.html) to see what's available.
+Because Flarum events are classes, they usually contain a bunch of useful data for us to work with. In our case, let's take a look at the [`PostWillBeSaved` event documentation](http://apidocs.flarum.org/0.1.0/php/Flarum/Event/PostWillBeSaved.html) to see what's available.
 
 I like the look of that `$post` property ... oh boy, a `Flarum\Core\Post` object! This is a **model** which represents the `posts` table in the database. We'll learn more about how that works later, but for now, let's override the content of the post inside of our handler:
 
@@ -227,7 +227,7 @@ Flarum's interface is made up of many nested **components**. Components are a bi
 
 With this in mind, let's take a look at how we would change a part of Flarum's UI.
 
-First, we want to find the component that is responsible for the part of the UI we're interested in. Let's say we want to replace each post with a smiley face – no doubt, we're after the [`Post` component]({{ site.baseurl }}/api/0.1.0/js/class/js/forum/src/components/Post.js~Post.html).
+First, we want to find the component that is responsible for the part of the UI we're interested in. Let's say we want to replace each post with a smiley face – no doubt, we're after the [`Post` component](http://apidocs.flarum.org/0.1.0/js/class/js/forum/src/components/Post.js~Post.html).
 
 Each component is a class that has a `view()` method. This method returns a virtual DOM object, constructed with [JSX](https://facebook.github.io/react/docs/jsx-in-depth.html). What's that? Well, it's basically a JavaScript representation of the component's HTML. The rendering framework that Flarum uses, [Mithril.js](http://mithril.js.org), takes it and turns it into real HTML in the most efficient way possible. (That's why Flarum is so speedy!)
 
@@ -287,7 +287,7 @@ Oh. Also, you can! These parts of Flarum's UI are constructed using a special cl
 
 Generally, the component that owns the list of items will have a specific method that returns an `ItemList` object. We can monkey-patch this method to manipulate the item list.
 
-Let's take the left side of the header, for example – the [`HeaderSecondary` component]({{ site.baseurl }}/api/0.1.0/js/class/js/forum/src/components/HeaderSecondary.js~HeaderSecondary.html). In this case, the method we're after is named `items()`. Let's do it!
+Let's take the left side of the header, for example – the [`HeaderSecondary` component](http://apidocs.flarum.org/0.1.0/js/class/js/forum/src/components/HeaderSecondary.js~HeaderSecondary.html). In this case, the method we're after is named `items()`. Let's do it!
 
 ```js
 import { extend } from 'flarum/extend';
@@ -324,10 +324,10 @@ But seriously, you're well on your way to developing a useful Flarum extension, 
 * Extensions are Composer packages with their metadata defined in `composer.json`.
 * They have a `bootstrap.php` which returns a function.
 * The function can receive the event dispatcher, which can then be used to set up event listeners/handlers.
-* Event handlers can be used to react to a [whole range of things]({{ site.baseurl }}/api/0.1.0/php/Flarum/Event.html) that are about to happen, are happening, or have happened.
+* Event handlers can be used to react to a [whole range of things](http://apidocs.flarum.org/0.1.0/php/Flarum/Event.html) that are about to happen, are happening, or have happened.
 * Flarum's front-end is a JavaScript application; to extend it, you must set up JavaScript transpilation.
 * The UI is made up of many nested components which construct virtual DOM objects.
-* [Components]({{ site.baseurl }}/api/0.1.0/js/) can be monkey-patched to make changes to the UI by modifying virtual DOM objects and Item Lists.
+* [Components](http://apidocs.flarum.org/0.1.0/js/) can be monkey-patched to make changes to the UI by modifying virtual DOM objects and Item Lists.
 
 <!--If you want to double-check you got everything right, or if you got stuck somewhere along the way, check out the final product here: tobscure/flarum-hello-world-->
 
