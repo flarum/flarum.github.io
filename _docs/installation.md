@@ -36,7 +36,7 @@ There are a few things that you will need to have set up in order to run Flarum:
 
 Flarum utilizes Composer to manage its dependencies and extensions. So, before installing Flarum, you will need to install [Composer](https://getcomposer.org) on your machine. Then run this command in the location where Flarum should be installed:
 
-```
+```bash
 composer create-project flarum/flarum . --stability=beta
 ```
 
