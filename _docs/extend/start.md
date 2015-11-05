@@ -16,7 +16,7 @@ Don't fret if you get stuck – there are plenty of people on the [Community For
 
 Alright, enough chit-chat — let's jump right in and make a basic "Hello World" extension for Flarum. You'll need to have Flarum up and running to do this, so if you haven't installed Flarum yet, go and [do that now]({{ site.baseurl }}/docs/installation/).
 
-All done? Okay. We'll start by giving your extension a place to live. Browse to the `extensions` directory and create a new folder. Give it a `kebab-case` name with the format: `vendor-extension`, where `vendor` is the vendor name and `extension` is the name of your extension.
+All done? Okay. We'll start by giving your extension a place to live. Browse to the `extensions` directory and create a new folder. Give it a `kebab-case` name with the format: `vendor-package`, where `vendor` is the vendor name and `package` is the name of your extension.
 
 You should choose a vendor name that's unique to you — your GitHub username, for example. For the purposes of this tutorial, we'll assume you're using `acme` as your vendor name ... in which case the folder you just created should be named `acme-hello-world`.
 
