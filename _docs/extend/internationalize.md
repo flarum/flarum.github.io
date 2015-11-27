@@ -377,8 +377,8 @@ core:
       log_in_link: => Log In
 
     log_in:
-      submit_button: => core.forum.header.log_in  # Never reference keys from
-      title: => core.forum.header.log_in          # namespaces other than ref!
+      submit_button: => core.forum.header.log_in_link  # Never reference keys
+      title: => core.forum.header.log_in_link          # that aren't in "ref"!
 ```
 
 
@@ -496,4 +496,3 @@ If the namespacing keys combine to form a complete specification of where a tran
 Although this may sound inefficient, there's a good reason for doing things this way: it's the easiest way to ensure that localizers will have the flexibility they need. If you reuse keys in your code, you'll eventually hit a snag. Your localizers will be unable to find a single expression that fits every context where you've used some key or other &hellip; and then they'll start bugging you to fix your code.
 
 Fortunately, you can avoid many such issues if you simply take care to [namespace translations](#namespacing-translations) correctly, [name your ID keys](#naming-id-keys) appropriately, and always [reuse translations](#reusing-translations) instead of keys. Though it may seem like a bother, in the long run the [standard format](#appendix-a) will make localization much easier for *everyone*.
-
