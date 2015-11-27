@@ -15,6 +15,7 @@
   docs:
   - extend
   - extend/start
+  - extend/internationalize
 
 - title: Translating Flarum
   docs:
