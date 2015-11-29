@@ -27,5 +27,7 @@ To give Flarum a spin, go to the [Installation](http://flarum.org/docs/installat
 
 ## Core Team
 
-- Toby Zerner ([GitHub](http://github.com/tobscure), [Twitter](http://twitter.com/tobscure))
-- Franz Liedke ([GitHub](http://github.com/franzliedke), [Twitter](http://twitter.com/franzliedke))
+- Toby Zerner ([GitHub](http://github.com/tobscure), [Twitter](http://twitter.com/tobscure)) – Core Developer
+- Franz Liedke ([GitHub](http://github.com/franzliedke), [Twitter](http://twitter.com/franzliedke)) – Core Developer
+- Dominion ([GitHub](http://github.com/dcsjapan)) – i18n Lead
+- Daniel Klabbers ([GitHub](http://github.com/luceos)) – Community Manager
