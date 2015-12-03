@@ -295,7 +295,9 @@ As a general rule, third-level keys should be short &mdash; no more than one or 
 
 ### Naming Identifier Keys
 
-Like the third-level namespacing keys, identifier keys should be expressed in `snake_case`. The typical ID key consists of two parts &mdash; a **root** and a **suffix** &mdash; each of which may be omitted in certain circumstances. Just as the namespacing keys tell localizers *where the translation is used*, each part of the ID key provides a further bit of information about the translation:
+Like the third-level namespacing keys, identifier keys should be expressed in `snake_case`. ID keys should be arranged in alphabetical order within each namespace, so they'll be easy for developers to locate.
+
+The typical ID key consists of two parts &mdash; a **root** and a **suffix** &mdash; each of which may be omitted in certain circumstances. Just as the namespacing keys tell localizers *where the translation is used*, each part of the ID key provides a further bit of information about the translation:
 
 #### ➡️ The suffix indicates *how the translation is used*.
 
