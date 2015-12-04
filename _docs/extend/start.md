@@ -176,7 +176,7 @@ flarum({
 
 Don't forget to change `acme` to your own vendor name!
 
-Now create a file at `js/forum/src/main.js`. This is like the JavaScript equivalent of `bootstrap.php` – its contents are executed as the JavaScript application boots up. This is where we will make our changes to the UI. For now, though, let's just alert a friendly greeting:
+Now create a file at `js/forum/src/main.js`. This is like the JavaScript equivalent of `bootstrap.php` – its content is executed as the JavaScript application boots up. This is where we will make our changes to the UI. For now, though, let's just alert a friendly greeting:
 
 ```js
 app.initializers.add('acme-hello-world', function() {
