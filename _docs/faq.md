@@ -33,6 +33,12 @@ Wouldn't it be inte-*great*! Right now it's not possible, but we do hope to work
 
 We would love to build countless features and extensions for Flarum, but first things first: Our focus is on the essentials and stability. Check out the [Roadmap]({{ site.baseurl }}/roadmap) for an overview of what we are planning to implement.
 
+<a name="issue"></a>
+
+## Why haven't you fixed [insert issue here] yet? 
+
+Here again the answer is "first things first". If we haven't fixed an issue (or assigned it a milestone) yet, it's because we're working on something else that's just as important. Please be patient; we'll try to get it done before release. Or if you're in a hurry, feel free to fix it yourself and [contribute to the project]({{ site.baseurl }}/docs/faq)!
+
 <a name="migration"></a>
 
 ## Will I be able to migrate my forum to Flarum?
