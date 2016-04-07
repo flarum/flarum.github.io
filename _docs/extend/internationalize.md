@@ -248,8 +248,8 @@ All translations are to be organized in categories, using namespacing keys arran
 The namespacing for translation keys used in official Flarum components, including bundled extensions, should match the name of the language pack locale file for the component in question. The namespaces for Flarum's non-extension components are fixed as shown below:
 
 ```yaml
-core:        # Used by the Flarum core
-validation:  # Used by Laravel's validator
+core:        # Translations used by the Flarum core
+validation:  # Translations used by Laravel's validator
 ```
 
 Translation keys used in an extension &mdash; including any third-party extension &mdash; need to be namespaced using the extension's name in `vendor-package` format (e.g, `flarum-tags` for the Tags extension).
@@ -261,18 +261,13 @@ There should be only **one** first-level prefix in any locale file; it should be
 Since Flarum doesn't have all that many interfaces, we've come up with a short list of second-level keys for you to choose from. We've included the more frequently used ones in the locale file template created with the extension skeleton. Below you will find the complete list, with explanations:
 
 ```yaml
-admin:       # Used by the admin interface.
-forum:       # Used by the forum user interface.
-lib:         # Used by either of the above.
+admin:       # Translations used by the admin interface.
+forum:       # Translations used by the forum user interface.
+lib:         # Translations used by either of the above.
+views:       # Translations used outside the normal JS client.
+email:       # Translations used in emails sent by Flarum.
 ```
-These first three keys correspond roughly to the names of the directories containing the code where the translations in that namespace will be used. Most of your keys will probably go in `admin` or `forum`.
-
-```yaml
-basic:       # Used by Flarum's basic HTML interface.
-email:       # Used in emails sent out by Flarum.
-```
-
-It's unlikely that you will ever need to add keys to the `basic` namespace, since the basic HTML interface is used mainly to display error messages when the standard UI can't be displayed for some reason. But you may need to use the `email` namespace if your extension will send users information by email.
+The first four keys correspond roughly to the directories containing the code where the translations in that namespace will be used. (Most of your keys will probably go in `admin` or `forum`.) The fifth key, `email`, is the exception: this namespace contains the resources for all emails sent by the forum, regardless of where the code is. 
 
 ```yaml
 ref:         # Translations referenced by more than one key.
@@ -283,7 +278,7 @@ These two keys don't correspond to interfaces; they're for translations that req
 
 #### ➡️ The third-level key indicates *which part of the UI uses the translation*.
 
-The keys in this level are not so rigidly defined. Their main purpose is to chop the UI up into manageable chunks, so localizers can find the translations and see for themselves how they are used by the software. (Third-level keys aren't used in the `basic`, `ref`, and `group` namespaces, which don't need chopping.)
+The keys in this level are not so rigidly defined. Their main purpose is to chop the UI up into manageable chunks, so localizers can find the translations and see for themselves how they are used by the software. (Third-level keys aren't used in the `ref` and `group` namespaces, which don't need chopping.)
 
 If you're modifying an existing location &mdash; to add a new setting to the Settings page, for example &mdash; you should copy our namespacing so experienced Flarum localizers will know  at a glance exactly where the new translations are displayed. See the [English locale files](https://github.com/flarum/english/tree/master/locale) for the details of our namespacing scheme.
 
