@@ -15,6 +15,14 @@ It's impossible for us to say at the moment – there are too many variables! Y
 
 Yes! However, the upgrade process may require you to get your hands a little dirty. We'll do our best to ensure it's as easy as possible.
 
+<a name="production"></a>
+
+## So can I use the beta version in production? Please?
+
+There's a reason the [installation instructions]({{ site.baseurl }}/docs/installation/) begin by warning against this. Flarum is not mature yet, and there is plenty of room for something to go wrong. Extensions you're relying on could be rendered incompatible by newer beta versions. Bugs could cause a loss of content or expose private information to the internet at large. Suboptimal SEO could hurt your site's ranking, making it hard to attract new members. Existing members could get fed up with performance issues or incomplete features and head for greener pastures. And so on &hellip;
+
+You may decide to ignore these risks and install Flarum anyway. That's up to you &hellip; but please be aware that if things go horribly wrong, it will be your responsibility to deal with them. We can't guarantee we'll be able to help you fix your problems at all &mdash; much less in a timely fashion. So bear in mind that it's **your** site that you'll be putting on the line, and choose wisely.
+
 <a name="customization"></a>
 
 ## How do I add a header logo, links, or favicon?
