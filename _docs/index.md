@@ -3,7 +3,7 @@ layout: docs
 title: Introduction
 permalink: /docs/
 ---
-Flarum is free, open-source forum software with a focus on simplicity. You can use Flarum to easily [set up a discussion forum]({{ site.baseurl }}/docs/installation) for your website.
+Flarum is free, open-source forum software with a focus on simplicity. You can use Flarum to easily [set up a discussion forum](http://flarum.org/docs/installation) for your website.
 
 Flarum is developed openly on [GitHub](https://github.com/flarum/flarum).
 
