@@ -18,7 +18,7 @@ Okay, time to get writing. Head back to the [Support forum](http://discuss.flaru
 
 - What you were doing when the problem occurred
 - All the information you gathered while troubleshooting
-- Anything you can tell us about your sever environment
+- Anything you can tell us about your server environment
 
 Remember: the goal of a bug report is to make it easy for us to replicate the bug and fix it. You might want to read [this article](http://www.chiark.greenend.org.uk/~sgtatham/bugs.html) for some useful tips on how to write an effective bug report. And please take a moment or two to format your post so it's easy to tell what's what.
 
