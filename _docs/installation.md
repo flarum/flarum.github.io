@@ -63,6 +63,14 @@ Flarum includes a `.htaccess` file – make sure it's been uploaded correctly. 
 Add the following lines to your server's configuration block:
 
 ```
+server {
+    listen port;
+
+    root /flarum/location;
+    index index.php;
+
+    server_name domain.tld;
+
     location / { try_files $uri $uri/ /index.php?$query_string; }
     location /api { try_files $uri $uri/ /api.php?$query_string; }
     location /admin { try_files $uri $uri/ /admin.php?$query_string; }
@@ -111,6 +119,7 @@ Add the following lines to your server's configuration block:
                text/xml;
     gzip_buffers 16 8k;
     gzip_disable "MSIE [1-6]\.(?!.*SV1)";
+}
 ```
 
 <a name="lighttpd"></a>
