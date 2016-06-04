@@ -265,9 +265,10 @@ admin:       # Translations used by the admin interface.
 forum:       # Translations used by the forum user interface.
 lib:         # Translations used by either of the above.
 views:       # Translations used outside the normal JS client.
+api:         # Translations used in messages output by the API.
 email:       # Translations used in emails sent by Flarum.
 ```
-The first four keys correspond roughly to the directories containing the code where the translations in that namespace will be used. (Most of your keys will probably go in `admin` or `forum`.) The fifth key, `email`, is the exception: this namespace contains the resources for all emails sent by the forum, regardless of where the code is. 
+The first four keys correspond roughly to the directories containing the code where the translations in that namespace will be used. (Most of your keys will probably go in `admin` or `forum`.) The remaining two keys are a bit different: the `api` namespace is for translations used in messages output by the API, while the `email` namespace contains the resources for all emails sent by the forum.
 
 ```yaml
 ref:         # Translations referenced by more than one key.
@@ -290,7 +291,7 @@ As a general rule, third-level keys should be short &mdash; no more than one or 
 
 ### Naming Identifier Keys
 
-Like the third-level namespacing keys, identifier keys should be expressed in `snake_case`. ID keys should be arranged in alphabetical order within each namespace, so they'll be easy for developers to locate.
+Like the third-level namespacing keys, identifier keys should be expressed in `snake_case`. ID keys should be arranged in alphabetical order within each namespace, so they'll be easy for developers to find. (There is one exception to this rule! ID keys in the `email` namespace should be listed just as they appear in your mail client: `subject` first, then `body`.)
 
 The typical ID key consists of two parts &mdash; a **root** and a **suffix** &mdash; each of which may be omitted in certain circumstances. Just as the namespacing keys tell localizers *where the translation is used*, each part of the ID key provides a further bit of information about the translation:
 
@@ -335,7 +336,7 @@ In some cases, the summary may be replaced by a description of the object's func
 
 The root may also be **omitted** in certain cases &mdash; usually when the suffix alone is sufficient to identify the translation. For example, it's unlikely that a page or dialog box will have more than one title &hellip; and like as not, the content of the title is already given in the third-level namespacing! So the suffix can stand alone.
 
-Suffixes are also sufficient to identify the subject and body components of an email message, since each email will have only one subject line and one body. Here too, the subject is enough. Note that the leading underscore is omitted in such cases: you would use just `title`, `subject`, or `body` as the ID key.
+Suffixes are also sufficient to identify the subject and body components of an email message, since each email will have only one subject line and one body. Note that the leading underscore is omitted in such cases: you would use just `title`, `subject`, or `body` as the ID key.
 
 
 <a name="reusing-translations"></a>
