@@ -29,6 +29,12 @@ There are a few things that you will need to have set up in order to run Flarum:
 * **PHP 5.5+** with the following extensions: mbstring, pdo_mysql, openssl, json, gd, dom, fileinfo
 * **MySQL 5.5+**
 * **SSH (command-line) access**
+* 
+
+```
+In order to avoid dependencies requirements.
+Add or Uncomment the line extension=php_fileinfo.dll on php.ini, and restart Apache.
+```
 
 <a name="installing-flarum"></a>
 
