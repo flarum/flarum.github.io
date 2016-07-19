@@ -77,6 +77,7 @@ Add the following lines to your server's configuration block:
         fastcgi_pass unix:/var/run/php5-fpm.sock;
         include fastcgi_params;
         fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+        fastcgi_param HTTP_PROXY "";
         fastcgi_index index.php;
     }
     
