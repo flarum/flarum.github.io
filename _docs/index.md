@@ -30,7 +30,7 @@ To give Flarum a spin, go to the [Installation](http://flarum.org/docs/installat
 - [Toby Zerner](http://discuss.flarum.org/u/Toby) ([GitHub](http://github.com/tobscure), [Twitter](http://twitter.com/tobscure)) – Core Developer
 - [Franz Liedke](http://discuss.flarum.org/u/Franz) ([GitHub](http://github.com/franzliedke), [Twitter](http://twitter.com/franzliedke)) – Core Developer
 - [Daniël Klabbers](http://discuss.flarum.org/u/luceos) ([GitHub](http://github.com/luceos), [Twitter](http://twitter.com/luceos)) – Project Manager
-- [Jordanjay29](http://discuss.flarum.org/u/jordanjay29) ([GitHub](http://github.com/jordanjay29) - Community Manager
+- [Jordanjay29](http://discuss.flarum.org/u/jordanjay29) ([GitHub](http://github.com/jordanjay29)) - Community Manager
 - [Dominion](http://discuss.flarum.org/u/Dominion) ([GitHub](http://github.com/dcsjapan)) – i18n Lead
 - [Kulga](http://discuss.flarum.org/u/Kulga) ([GitHub](http://github.com/kulga)) - Community Moderator
 - [Digital](http://discuss.flarum.org/u/Digital) ([GitHub](http://github.com/Normsky)) - Community Moderator
