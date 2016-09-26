@@ -23,7 +23,7 @@
 
   h3 {
     margin-top: 0;
-    font-weight: 300;
+    font-weight: normal;
   }
 
   @include respond-to(handhelds) {
