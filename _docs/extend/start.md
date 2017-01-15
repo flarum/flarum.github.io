@@ -249,7 +249,7 @@ app.initializers.add('acme-hello-world', function() {
 
 If you're still running the `gulp watch` command, your extension JavaScript should automatically recompile when you save. Simply refresh your forum and navigate to a discussion to see a bunch of smiling faces! :D
 
-Unfortuantely, completely overriding the Post template isn't very practical. We would be much wiser to take the existing template after it's constructed and then merely *extend* it. Flarum provides a helper to do just this:
+Unfortunately, completely overriding the Post template isn't very practical. We would be much wiser to take the existing template after it's constructed and then merely *extend* it. Flarum provides a helper to do just this:
 
 ```js
 import { extend } from 'flarum/extend';
