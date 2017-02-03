@@ -64,11 +64,20 @@ Add the following lines to your server's configuration block:
 
 ```
 server {
-    listen port;
+        # listen defines the port used. 80 is used for http
+        # 443 and ssl are used for listening to https connections
+        # and require certificate configuration to work properly
+        # If using ssl uncomment the following line
 
+        # listen 443 ssl;
+    listen 80;
+        
+        # Change root location to where flarum is installed.
     root /flarum/location;
     index index.php;
-
+        
+        # This should look something like (for example)
+        # server_name discuss.flarum.org
     server_name domain.tld;
 
     location / { try_files $uri $uri/ /index.php?$query_string; }
@@ -119,6 +128,29 @@ server {
                text/xml;
     gzip_buffers 16 8k;
     gzip_disable "MSIE [1-6]\.(?!.*SV1)";
+    
+        #############################
+        # SSL configuration
+        # For more information: http://nginx.org/en/docs/http/configuring_https_servers.html
+        #############################
+    
+        # Nginx cannot hangle intermediate certificate as a separate file. See above url for more information.
+        
+      # ssl_certificate     /directory/to/fullchain.pem;  
+      # ssl_certificate_key /directory/to/private_key/privkey.pem;
+    
+        # modern configuration. tweak to your needs.  
+    # ssl_protocols TLSv1 TLSv1.1 TLSv1.2;  
+    # ssl_session_timeout 1d;  
+    
+    # ssl_ciphers 'EECDH+AESGCM:EDH+AESGCM:AES256+EECDH:AES256+EDH';
+    # ssl_prefer_server_ciphers on;
+    # ssl_session_cache shared:SSL:50m;
+    # ssl_dhparam /etc/nginx/ssl/dhparam.pem;
+    
+        # HSTS (ngx_http_headers_module is required) (15768000 seconds = 6 months)  
+        # Will force the usage of HTTPS. Test your SSL configuration well before using this!
+    # add_header Strict-Transport-Security max-age=15768000;
 }
 ```
 
