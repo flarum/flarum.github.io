@@ -108,6 +108,7 @@ Add the following lines to your server's configuration block:
                image/svg+xml
                image/x-icon
                text/css
+               text/html
                text/plain
                text/xml;
     gzip_buffers 16 8k;
