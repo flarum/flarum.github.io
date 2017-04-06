@@ -79,6 +79,8 @@ You can then pass the token in an Authorization header in subsequent requests:
 
 ## Tags
 
+* `GET /api/tags` - get all tags
 * `POST /api/tags` - create a new tag
 * `PATCH /api/tags/:id` - update a tag
 * `DELETE /api/tags/:id` - delete a tag
+* `POST /api/tags/order` - re-order tags
