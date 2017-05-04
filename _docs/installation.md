@@ -108,7 +108,7 @@ Add the following lines to your server's configuration block:
                image/svg+xml
                image/x-icon
                text/css
-               text/html
+               #text/html -- text/html is gzipped by default by nginx
                text/plain
                text/xml;
     gzip_buffers 16 8k;
