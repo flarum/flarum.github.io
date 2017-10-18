@@ -11,15 +11,11 @@ If you're using any third-party extensions, be sure to [read this](#third-party-
 
 ## Language Pack Installation
 
-To begin, visit the [Extensions > Languages](http://discuss.flarum.org/t/languages) tag at the Flarum Community site and find a language pack that you want to install. Be sure to download the ZIP file for the Flarum version  you're running.
+To begin, visit the [Extensions > Languages](http://discuss.flarum.org/t/languages) tag at the Flarum Community site and find a language pack that you want to install.
 
-1. Unpack the ZIP file and read the instructions in the enclosed **readme.txt** file.
-2. Log in to your server via SSH, FTP, or your provider's control panel.
-3. Navigate to the **extensions/** directory of your Flarum installation.
-4. Create a new subdirectory. *Name it exactly as directed in the instructions!*
-5. Upload everything in the unpacked folder to the subdirectory you just created.
-6. Use your browser to navigate to the **Extensions** page of the admin interface.
-7. Locate the language pack you just installed and enable it.
+Until our extension ecosystem is completed, [Composer](https://getcomposer.org/) is being used to install extensions.
+
+Follow the instructions supplied by the extension creator. Then enable the extension in the admin panel.
 
 That's all there is to it! You should now be able to use the language selector in your site's header to switch your forum's display to the new language.
 
