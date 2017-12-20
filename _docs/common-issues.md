@@ -6,7 +6,11 @@ permalink: /docs/common-issues/
 
 These issues are often reported at the support forum or discord. Cannot find your problem? Go to Troubleshooting for general help.
 
-## Permission denied
+## Package http-interop/http-middleware is abandoned
+
+This is a warning and you can safely ignore it. The dependency will be fixed in a future version.
+
+## Internal Server Error / Permission denied
 
 Flarum needs permission to write files (cache, avatars). You may get error messages if your folders are not writeable by the PHP user. 
 
