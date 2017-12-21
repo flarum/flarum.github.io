@@ -6,6 +6,16 @@ permalink: /docs/common-issues/
 
 These issues are often reported at the support forum or discord. Cannot find your problem? Go to Troubleshooting for general help.
 
+## Upload avatar error (nginx webserver)
+
+Often people find error when try to upload avatar image file. there are 4 check points you want to double check:
+1. avatar file size MUST < 2M, (this looks like Flarum hardcoded limit)
+2. double check `nginx.conf: client_max_body_size 2m;` (if your nginx cfg file don't have this line, [default is 1M](http://nginx.org/en/docs/http/ngx_http_core_module.html#client_max_body_size))
+3. double check `php.ini: upload_max_filesize = 2M`, change to at least 2M to comply with Flarum number
+4. install `php-imagick` pkg for your php installation. 
+If all 4 check points all correct and you still got error. change `flarum/config.php: 'debug' => true,,`, reproduce the issue, and click the "*debug*" link of the error prompt, hopefully the debug message will give you clue of what's going on.
+
+
 ## Package http-interop/http-middleware is abandoned
 
 This is a warning and you can safely ignore it. The dependency will be fixed in a future version.
