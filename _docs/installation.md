@@ -139,4 +139,8 @@ If you're having a problem installing Flarum, check out the [Installation tag](h
 
 ## Importing Data
 
-Eventually we hope to build data importers so you can migrate to Flarum from other forum software. However, it is far too early at this stage – we need to achieve stability first!
+There are no official importers yet, as Flarums data model is still under development. But this will change with the [upcoming stable release](/roadmap).
+
+However, there will be upgrade procedures for beta to stable. And the community has made an [unofficial importer for phpBB](https://discuss.flarum.org/d/1117-phpbb-migrate-script-updated-for-beta-5) already. This can be used to import other forums as well, by exporting to phpBB first.
+
+Want to help out writing importers? Great! See our guidelines for [code contributions](https://github.com/flarum/flarum/blob/master/CONTRIBUTING.md).
