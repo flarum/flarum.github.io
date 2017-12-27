@@ -27,7 +27,7 @@ You may decide to ignore these risks and install Flarum anyway. That's up to you
 
 ## How do I add a header logo, links, or favicon?
 
-You can add a logo and a favicon by visiting admisitration section > appearance and uploading those there. The functionality to add links is not yet there but, you can do that by using an extension available in the community.
+You can add a logo and a favicon by visiting admisitration section > appearance and uploading those there. The functionality to add links is not yet there but, you can do that by using an [extension](https://github.com/sijad/flarum-ext-links) available in the community.
 
 <a name="integration"></a>
 
