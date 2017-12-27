@@ -141,6 +141,12 @@ If you're having a problem installing Flarum, check out the [Installation tag](h
 
 There are no official importers yet, as Flarums data model is still under development. But this will change with the [upcoming stable release](/roadmap).
 
-However, there will be upgrade procedures for beta to stable. And the community has made an [unofficial importer for phpBB](https://discuss.flarum.org/d/1117-phpbb-migrate-script-updated-for-beta-5) already. This can be used to import other forums as well, by exporting to phpBB first.
+However, there will be upgrade procedures for beta to stable. And the community has made several unofficial importers already:
+
+- [phpBB](https://discuss.flarum.org/d/1117-phpbb-migrate-script-updated-for-beta-5)
+- [SMF2](https://github.com/ItalianSpaceAstronauticsAssociation/smf2_to_flarum)
+- [FluxBB](https://discuss.flarum.org/d/3867-fluxbb-to-flarum-migration-tool)
+
+This can be used to import other forums as well, by exporting to phpBB first.
 
 Want to help out writing importers? Great! See our guidelines for [code contributions](https://github.com/flarum/flarum/blob/master/CONTRIBUTING.md).
