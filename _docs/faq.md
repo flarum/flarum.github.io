@@ -27,7 +27,7 @@ You may decide to ignore these risks and install Flarum anyway. That's up to you
 
 ## How do I add a header logo, links, or favicon?
 
-Adding a favicon should be as simple as plopping a `favicon.ico` file at the root of your domain. There's no easy way to add a header logo/links right now, but it's coming in a beta release in the near future. Thanks for your patience!
+You can add a logo and a favicon by visiting admisitration section > appearance and uploading those there. The functionality to add links is not yet there but, you can do that by using an extension available in the community.
 
 <a name="integration"></a>
 
