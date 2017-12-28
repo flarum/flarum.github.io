@@ -30,6 +30,8 @@ There are a few things that you will need to have set up in order to run Flarum:
 * **MySQL 5.5+**
 * **SSH (command-line) access**
 
+Alternatively, you can use a third party Flarum service such as [Free Flarum](https://www.freeflarum.com) (not affiliated with flarum.org).
+
 <a name="installing-flarum"></a>
 
 ## Installing Flarum
