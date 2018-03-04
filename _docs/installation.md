@@ -69,7 +69,7 @@ Add the following lines to your server's configuration block:
     location /api { try_files $uri $uri/ /api.php?$query_string; }
     location /admin { try_files $uri $uri/ /admin.php?$query_string; }
 
-    location /flarum {
+    location ~* ^/(flarum|storage|vendor) {
         deny all;
         return 404;
     }
