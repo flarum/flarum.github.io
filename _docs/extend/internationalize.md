@@ -344,7 +344,7 @@ Suffixes are also sufficient to identify the subject and body components of an e
 ### Reusing Translations
 
 
-Flarum's unique [key references](#key-references) fulfil the same role as YAML anchors, but they're better in one respect: you can even reference keys in a different file! For this reason, you need to use the **full translation key** when referencing. Here's a more realistic example of how referencing works, complete with namespacing:
+Flarum's unique [key references](#key-references) fulfill the same role as YAML anchors, but they're better in one respect: you can even reference keys in a different file! For this reason, you need to use the **full translation key** when referencing. Here's a more realistic example of how referencing works, complete with namespacing:
 
 ```yaml
 core:
