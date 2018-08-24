@@ -182,7 +182,7 @@ Note that each parameter is defined using a single HTML tag, with a slash added 
 icon_text: "Enter the name of any <a>FontAwesome</a> icon class, <em>without</em> the <code>fa-</code> prefix."
 ```
 
-Of course, you can give a parameter any name you like &mdash; you could use `<fred>` and `</fred>` to enclose your link text, if you really wanted to! But we recommend sticking as close as possible to the actual HTML tags being represented, so your localizers will be able to understand what's going on.
+Of course, you can give a parameter any name you like &mdash; you could use `<fred>` and `</fred>` to enclose your link text if you really wanted to! But we recommend sticking as close as possible to the actual HTML tags being represented, so your localizers will be able to understand what's going on.
 
 Localizers can reorder elements as needed, and even choose to omit tags if they so desire. But they can't add any tags of their own: the translator will simply ignore any HTML-style tag that doesn't correspond to a properly defined parameter in the code.
 
