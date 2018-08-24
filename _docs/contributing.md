@@ -7,7 +7,7 @@ permalink: /docs/contributing/
 
 Thank you for helping us test Flarum. We're happy to have you on the team! We need people who can *troubleshoot issues patiently* and *communicate them clearly*. As you probably know, good bug reporting takes some time and effort. If you're fine with that, then let's get started!
 
-Found a bug already? Wonderful! We'd love to hear about it &mdash; but first you should check around to make sure you're not wasting your time on a known issue:
+Found a bug already? Wonderful! We'd love to hear about it &mdash; but first, you should check around to make sure you're not wasting your time on a known issue:
 
 - Search our [Support forum](http://discuss.flarum.org/t/support) to see if it's already been reported.
 - We could be working on a fix, so search our [issue tracker](https://github.com/flarum/core/issues) too.
