@@ -441,7 +441,6 @@ sign_up: Sign Up
 
 There were good reasons for doing it this way. For one thing, it made it easy to turn the second half into a link. And since the second translation is reused elsewhere, keeping it separate seemed like a no-brainer.
 
-But there were problems with this approach. The hardcoded space seemed likely to pose issues for some localizers, as mentioned above. And splitting this text into two strings would make it impossible to render the line as a single sentence with the link embeded in the middle:
 
 > If you don't have an account yet, you can [sign up](#) instead!
 
