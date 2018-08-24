@@ -198,7 +198,7 @@ const remaining = this.minPrimary - primaryCount;
 return app.translator.transChoice('choose_primary_placeholder', remaining, {count: remaining});
 ```
 
-This example is from the [Choose Tags modal](https://github.com/flarum/tags/blob/master/js/forum/src/components/TagDiscussionModal.js) of the Tags extension, where it tells the user how many more primary tags can be selected. Note that the `remaining` variable is passed to the translator **twice**. First it appears as itself, to condition the pluralization of the word "tags". Then it appears again as the value of the `count` parameter, which the translator can use to insert that value in the translation.
+This example is from the [Choose Tags modal](https://github.com/flarum/tags/blob/master/js/forum/src/components/TagDiscussionModal.js) of the Tags extension, where it tells the user how many more primary tags can be selected. Note that the `remaining` variable is passed to the translator **twice**. First, it appears as itself, to condition the pluralization of the word "tags". Then it appears again as the value of the `count` parameter, which the translator can use to insert that value in the translation.
 
 When the `app.translator.transChoice()` method is called, the translator scans the translation for a variant that matches the sort of pluralization required by the value of the variable. These variants need to be listed serially &mdash; singular form first, then plural forms in order of increasing magnitude &mdash; and separated using the vertical line (`|`) character. Here's the English translation for the above code:
 
