@@ -210,7 +210,7 @@ This will cause our extension's JavaScript to be loaded into the page, and our b
 
 ### Components
 
-Flarum's interface is made up of many nested **components**. Components are a bit like HTML elements in that they encapsulate content and behaviour. For example, look at this simplified tree of the components that make up a discussion page:
+Flarum's interface is made up of many nested **components**. Components are a bit like HTML elements in that they encapsulate content and behavior. For example, look at this simplified tree of the components that make up a discussion page:
 
 * DiscussionPage
     - DiscussionList (the side pane)
