@@ -135,7 +135,7 @@ Add the following lines to your server's configuration block:
 
 ## Importing Data
 
-There are no official importers yet, as Flarums data model is still under development. But this will change with the [upcoming stable release](/roadmap).
+There are no official importers yet, as Flarum's data model is still under development. But this will change with the [upcoming stable release](/roadmap).
 
 However, there will be upgrade procedures for beta to stable. And the community has made several unofficial importers already:
 
