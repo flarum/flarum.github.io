@@ -113,7 +113,7 @@ It's not uncommon to use the same bit of text in more than one location or conte
 - As a **button** that users can click when they want to edit some stuff
 - As the **title** of a dialog box displayed when users click that button
 
-Your instinct might be to add a single translation &mdash; let's call it "`edit_stuff`" &mdash; and use that ID key twice in your code. This approach is efficient, but it lacks flexibility: in some languages, it may not be possible to use the same phrase for both the button and the dialog title! A better way would be to define *two* keys for use in your code, then set them both to reference the same translation, like so: 
+Your instinct might be to add a single translation &mdash; let's call it "`edit_stuff`" &mdash; and use that ID key twice in your code. This approach is efficient, but it lacks flexibility: in some languages, it may not be possible to use the same phrase for both the button and the dialog title! A better way would be to define *two* keys for use in your code, then set them both to reference the same translation, like so:
 
 ```yaml
 edit_stuff_button: => edit_stuff    # Used in the code that creates the button.
