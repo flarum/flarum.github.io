@@ -410,7 +410,7 @@ You may also wish to add **inline comments** after a specific translation to pro
 
 ## Appendix B: Coding for the World
 
-In this appendix we'd like to offer a few tips that may help you to avoid some of the more common pitfalls in the internationalization process. Abstracting language from code is easily one of the more humdrum tasks a programmer has to deal with, but if you don't give due attention to the subtleties involved, you're likely to end up creating your localizers an unnecessary headache or two.
+In this appendix, we'd like to offer a few tips that may help you to avoid some of the more common pitfalls in the internationalization process. Abstracting language from code is easily one of the more humdrum tasks a programmer has to deal with, but if you don't give due attention to the subtleties involved, you're likely to end up creating your localizers an unnecessary headache or two.
 
 Of course, it's not just about making life easier for localizers. Because when they get headaches, they will come to you for help &mdash; often months (or even years) after you've put the project behind you and moved on to something else! It's the sort of situation where an ounce or two of prevention may indeed be worth several pounds of cure further down the road &hellip; for everybody involved.
 
