@@ -26,7 +26,7 @@ Before you install, please read our [Contributing]({{ site.baseurl }}/docs/contr
 There are a few things that you will need to have set up in order to run Flarum:
 
 * A web server: **Apache** (with mod_rewrite), **Nginx**, or **Lighttpd**
-* **PHP 5.6 up to 7.1 (not 7.2)** with the following extensions: mbstring, pdo_mysql, openssl, json, gd, dom, fileinfo, tokenzier
+* **PHP 5.6 up to 7.1 (not 7.2)** with the following extensions: mbstring, pdo_mysql, openssl, json, gd, dom, fileinfo, tokenizer
 * **MySQL 5.5+**
 * **SSH (command-line) access**
 
