@@ -70,7 +70,7 @@ No slow items but the total load time (see bottom right) is above 3 seconds? The
 
 ### Slow server
 
-To find the root cause, first identify which component is slow. Run `top` on your server. It will show you the processes that use the most capacity. Possibilities:
+To find the root cause, first, identify which component is slow. Run `top` on your server. It will show you the processes that use the most capacity. Possibilities:
 
 **Nginx or Apache**
 
