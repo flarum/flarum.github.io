@@ -57,7 +57,7 @@ Yes, but not for a while. Our focus right now is on getting Flarum stable and fe
 
 ## How can I format my posts?
 
-Flarum currently does not have a visual editor – it's just something we didn't get to in time for beta. Rest assured, it is planned and will be available in the core soon.
+Flarum currently does not have a visual editor – it's just something we didn't get to in time for the beta. Rest assured, it is planned and will be available in the core soon.
 
 Despite not having a visual editor at the moment, Flarum does support Markdown and BBCode. Markdown is a plain text format for writing structured documents, based on conventions used for indicating formatting in email and usenet posts. If you are completely new to Markdown, check out [this cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) to help you with formatting your posts on Flarum.
 
