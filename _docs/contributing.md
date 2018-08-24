@@ -22,7 +22,7 @@ Okay, time to get writing. Head back to the [Support forum](http://discuss.flaru
 
 Remember: the goal of a bug report is to make it easy for us to replicate the bug and fix it. You might want to read [this article](http://www.chiark.greenend.org.uk/~sgtatham/bugs.html) for some useful tips on how to write an effective bug report. And please take a moment or two to format your post so it's easy to tell what's what.
 
-Once you've posted your report, we'd ask that you please *follow the discussion* that you created and wait patiently. We may need to ask for further details or clarification; but we've always got plenty to do, and it could be a while before we can give your report the time it deserves.
+Once you've posted your report, we'd ask that you please *follow the discussion* that you created and wait patiently. We may need to ask for further details or clarification, but we've always got plenty to do, and it could be a while before we can give your report the time it deserves.
 
 ## Contributing Code
 
