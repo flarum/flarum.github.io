@@ -12,7 +12,7 @@ Found a bug already? Wonderful! We'd love to hear about it &mdash; but first, yo
 - Search our [Support forum](http://discuss.flarum.org/t/support) to see if it's already been reported.
 - We could be working on a fix, so search our [issue tracker](https://github.com/flarum/core/issues) too.
 
-If you've searched *thoroughly* and come up empty-handed, we'll welcome your report. If it's just a simple issue (a misspelled word or graphics glitch, for example) skip to the next paragraph. But if you're seeing errors, or something is clearly broken, we'll need you to gather some information first. Please head over to our [Troubleshooting](http://flarum.org/docs/troubleshooting/) guide and follow the instructions there. Collect as much info as you can!
+If you've searched *thoroughly* and come up empty-handed, we'll welcome your report. If it's just a simple issue (a misspelled word or graphics glitch, for example) skip to the next paragraph. But if you're seeing errors or something is clearly broken, we'll need you to gather some information first. Please head over to our [Troubleshooting](http://flarum.org/docs/troubleshooting/) guide and follow the instructions there. Collect as much info as you can!
 
 Okay, time to get writing. Head back to the [Support forum](http://discuss.flarum.org/t/support) and start a new discussion. Be sure to give it a title that's clear and concise, and then explain the problem thoroughly. Don't forget to mention:
 
