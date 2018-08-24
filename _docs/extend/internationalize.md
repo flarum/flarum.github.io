@@ -191,7 +191,7 @@ Localizers can reorder elements as needed, and even choose to omit tags if they 
 
 ### Handling Pluralization
 
-On occassion you may need to provide alternate versions of a translation to accommodate pluralization of a word or phrase. This is done by using the `app.translator.transChoice()` method to pass the translation key &mdash; along with a variable that sets the conditions for pluralization &mdash; to the translator. 
+On occasion, you may need to provide alternate versions of a translation to accommodate pluralization of a word or phrase. This is done by using the `app.translator.transChoice()` method to pass the translation key &mdash; along with a variable that sets the conditions for pluralization &mdash; to the translator.
 
 ```javascript
 const remaining = this.minPrimary - primaryCount;
