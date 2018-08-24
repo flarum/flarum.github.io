@@ -36,7 +36,7 @@ return function () {
 
 ### composer.json
 
-Ever heard of [Composer](https://getcomposer.org)? It's a dependency manager for PHP. It allows applications to easily pull in external code libraries, and makes it easy to keep them up-to-date so that security and bug fixes are propagated rapidly. Pretty cool, huh?
+Ever heard of [Composer](https://getcomposer.org)? It's a dependency manager for PHP. It allows applications to easily pull in external code libraries and makes it easy to keep them up-to-date so that security and bug fixes are propagated rapidly. Pretty cool, huh?
 
 As it turns out, every Flarum Extension is also a Composer package. That means someone's Flarum installation can "require" a certain Extension and Composer will pull it in and keep it up-to-date. Nice!
 
