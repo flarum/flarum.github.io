@@ -64,7 +64,7 @@ First, identify whether the delay occurs in the `server`, the `network` or your 
 
 The first item is the page as rendered by the server (here: discuss.flarum.org). In this case, it took about half a second which is ok. If it takes more than a second, something is wrong with your server, see below. 
 
-Now look at the other items. The blue bar denotes the time that it took to download. Check the duration of the blue bar and the size of the item. Slow (>2 seconds), large (> 800KB) and Javascript? You are probably running in debug mode (check in `config.php`) which disables minification of assets. Slow but not very large items? Your network connection to the server is likely the problem. 
+Now, look at the other items. The blue bar denotes the time that it took to download. Check the duration of the blue bar and the size of the item. Slow (>2 seconds), large (> 800KB) and Javascript? You are probably running in debug mode (check in `config.php`) which disables minification of assets. Slow but not very large items? Your network connection to the server is likely the problem.
 
 No slow items but the total load time (see bottom right) is above 3 seconds? The delay is in your browser.
 
