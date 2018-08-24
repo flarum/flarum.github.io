@@ -3,7 +3,7 @@ layout: docs
 title: Introduction
 permalink: /docs/extend/
 ---
-Flarum may be minimalistic, but it's also highly extensible. In fact, most of the features that ship with Flarum are actually Extensions! This approach makes Flarum extremely customizable. A user can disable any features they don't use on their forum, and install other Extensions to make a forum perfect for their use-case.
+Flarum may be minimalistic, but it's also highly extensible. In fact, most of the features that ship with Flarum are actually Extensions! This approach makes Flarum extremely customizable. A user can disable any features they don't use on their forum and install other Extensions to make a forum perfect for their use-case.
 
 In order to achieve this extensibility, Flarum has been built with rich APIs and extension points. With some programming knowledge, you can leverage these APIs to add just about any feature you want. This section of the documentation aims to teach you how Flarum works, and how to use the APIs so that you can build your own Extensions.
 
