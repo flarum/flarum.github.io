@@ -85,7 +85,7 @@ Whenever something of importance is about to happen, is happening, or has just h
 For example:
 
 * When a discussion is started, Flarum fires the `DiscussionWasStarted` event. A "Twitter Feed" Extension could listen for this event and react by sending a tweet with the discussion's title and URL.
-* When post data is about to be saved to the database, Flarum fires the `PostWillBeSaved` event. An "Attachments" Extension could listen for this event and react by validating any uploaded files, and queing them to be saved to the database too.
+* When post data is about to be saved to the database, Flarum fires the `PostWillBeSaved` event. An "Attachments" Extension could listen for this event and react by validating any uploaded files and queuing them to be saved to the database too.
 * When the page HTML is about to be rendered, Flarum fires the `ConfigureClientView` event. A theme Extension could listen for this event and react by adding some CSS code to the page.
 
 Get the idea? Great! There are dozens of events you can listen for, and they're all found under the [`Flarum\Event` namespace](http://apidocs.flarum.org/0.1.0/php/Flarum/Event.html). Go ahead, have a squiz!
