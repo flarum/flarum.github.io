@@ -388,7 +388,7 @@ For this reason, any key references in the [core resources](https://github.com/f
 
 - Translations used by both the extension and the core should go in the `core.ref` namespace.
 
-Third-party extensions are welcome to reference keys in the `core.ref` namespace, but please be aware that we cannot add translations to this namespace based on reuse in third-party extensions. A third-party dev who wants to reuse a translation from a namespace other that `core.ref` will need to add a properly keyed duplicate translation to the extension's locale file. 
+Third-party extensions are welcome to reference keys in the `core.ref` namespace, but please be aware that we cannot add translations to this namespace based on reuse in third-party extensions. A third-party dev who wants to reuse a translation from a namespace other than `core.ref` will need to add a properly keyed duplicate translation to the extension's locale file.
 
 No extension should ever reference a key from another extension, as doing so will result in a dependency.
 
