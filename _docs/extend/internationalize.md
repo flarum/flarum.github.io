@@ -336,7 +336,7 @@ In some cases, the summary may be replaced by a description of the object's func
 
 The root may also be **omitted** in certain cases &mdash; usually when the suffix alone is sufficient to identify the translation. For example, it's unlikely that a page or dialog box will have more than one title &hellip; and like as not, the content of the title is already given in the third-level namespacing! So the suffix can stand alone.
 
-Suffixes are also sufficient to identify the subject and body components of an email message, since each email will have only one subject line and one body. Note that the leading underscore is omitted in such cases: you would use just `title`, `subject`, or `body` as the ID key.
+Suffixes are also sufficient to identify the subject and body components of an email message since each email will have only one subject line and one body. Note that the leading underscore is omitted in such cases: you would use just `title`, `subject`, or `body` as the ID key.
 
 
 <a name="reusing-translations"></a>
