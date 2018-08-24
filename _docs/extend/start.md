@@ -121,7 +121,7 @@ Try it out! Now whenever someone makes a post, the content will be set to "This 
 
 ## Changing the UI
 
-We're making good progress. We've learnt how to bootstrap our extension, and we can listen for events, which opens up a lot of doors.
+We're making good progress. We've learned how to bootstrap our extension, and we can listen for events, which opens up a lot of doors.
 
 The next thing we're going to learn is how to make changes to Flarum's user interface. How to add buttons, marquees, and blinking text. Well, maybe not the last couple...
 
