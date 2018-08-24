@@ -64,7 +64,7 @@ Breaking it down:
 * **description** is a short one-sentence description of what the extension does.
 * **type** MUST be set to `flarum-extension`. This ensures that when someone "requires" your extension, it will be properly installed into the `extensions` directory.
 * **require** contains a list of your extension's own dependencies. You'll want to specify the first version of Flarum that your extension is compatible with here, usually prefixed with a caret (`^`).
-* **extra** contains some Flarum-specific information, like your extension's display name and the definition of its icon. For now just a title is fine.
+* **extra** contains some Flarum-specific information, like your extension's display name and the definition of its icon. For now, just a title is fine.
 
 Alright, all set? Now go ahead and fire 'er up on your forum's Administration page!
 
