@@ -15,7 +15,7 @@ Where do we draw the line between Flarum's core and its extensions? Why are some
 
 **Flarum's core** is not intended to be packed full of features. Rather, it is a scaffold, or a framework, which provides a reliable foundation on which extensions can build. It contains only basic, unopinionated functionality that is essential to a forum: discussions, posts, users, groups, and notifications.
 
-**Bundled extensions** are features that are packaged with Flarum and enabled by default. They are extensions just like any other, and may be disabled and uninstalled. While their scope is not intended to address all use-cases, the idea is to make them generic and configurable enough that they can satisfy the majority.
+**Bundled extensions** are features that are packaged with Flarum and enabled by default. They are extensions just like any other and may be disabled and uninstalled. While their scope is not intended to address all use-cases, the idea is to make them generic and configurable enough that they can satisfy the majority.
 
 **Third-party extensions** are features which are made by others and are not officially supported by the Flarum team. They should be built and used to address more specific use-cases.
 
