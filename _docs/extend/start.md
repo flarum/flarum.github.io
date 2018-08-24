@@ -80,7 +80,7 @@ Alright folks, listen up.
 
 No, seriously, that's all there is to it.
 
-Whenever something of importance is about to happen, is happening, or has just happened, Flarum fires an **event**. As an Extension developer, your job is pretty simple: **listen** for the events you're interested in, and react accordingly.
+Whenever something of importance is about to happen, is happening, or has just happened, Flarum fires an **event**. As an Extension developer, your job is pretty simple: **listen** for the events you're interested in and react accordingly.
 
 For example:
 
