@@ -60,7 +60,7 @@ acme-hello-world:                # Namespacing for the extension; unindented.
     hello_text: "Hello, world!"  # Identifier/translation; indented 4 spaces.
 ```
 
-Once you have this information in place, you can form the **full translation key** that you will use to access a translation by listing its keys in order from extension namespace to identifier, with periods as delimiters. For example, the full translation key for the "Hello, world!" translation would be:
+Once you have this information in place, you can form the **full translation key** that you will use to access a translation by listing its keys in order from extension namespace to an identifier, with periods as delimiters. For example, the full translation key for the "Hello, world!" translation would be:
 
 ```javascript
 'acme-hello-world.alert.hello_text'
