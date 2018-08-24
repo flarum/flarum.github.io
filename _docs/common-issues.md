@@ -56,7 +56,7 @@ This happens when your configured URL differs from the one you are using right n
 
 ## Slow
 
-Flarum is one for the fastest forums around. A normal page load should happen in under 3 seconds. So what to do if it still feels slow?
+Flarum is one of the fastest forums around. A normal page load should happen in under 3 seconds. So what to do if it still feels slow?
 
 First, identify whether the delay occurs in the `server`, the `network` or your `browser`. Using Chrome, open the developer tools, go to the network tab and load your forum. You will see a waterfall view like this:
 
