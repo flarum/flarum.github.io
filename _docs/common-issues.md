@@ -74,7 +74,7 @@ To find the root cause, first, identify which component is slow. Run `top` on yo
 
 **Nginx or Apache**
 
-The webserver is busy. This should not happen, unless you use `mod_php` but that is not recommended.
+The web server is busy. This should not happen unless you use `mod_php` but that is not recommended.
 
 **MySQL**
 
