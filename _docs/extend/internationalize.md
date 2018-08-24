@@ -426,7 +426,7 @@ Generally speaking, any displayed text that isn't supplied by a variable or the 
 
 ### Avoid Hardcoded Syntax!
 
-Hardcoded text isn't the only way that code can create problems for localizers. Hardcoded syntax issues occur when the code forces words into a specific order that just won't work in other languages. They are generally the result of using two translations where just one would be more appropriate.
+The hardcoded text isn't the only way that code can create problems for localizers. Hardcoded syntax issues occur when the code forces words into a specific order that just won't work in other languages. They are generally the result of using two translations where just one would be more appropriate.
 
 For an example, let's look at the line of text that's printed near the bottom of the [Log In modal](https://github.com/flarum/core/blob/master/js/forum/src/components/LogInModal.js):
 
