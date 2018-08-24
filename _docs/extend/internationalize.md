@@ -32,7 +32,7 @@ Since English translations could be the only thing standing between forum users 
 
 ## Creating a Locale File
 
-Flarum's language resources use the [YAML](https://en.wikipedia.org/wiki/YAML) file format. The locale files for a third-party extension need to be stored in the extenion's `locale` folder. Each locale file should be named using the [ISO 639-1 code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the language it contains. For example, a file containing French translations should be named  "`fr.yml`".
+Flarum's language resources use the [YAML](https://en.wikipedia.org/wiki/YAML) file format. The locale files for a third-party extension need to be stored in the extension's `locale` folder. Each locale file should be named using the [ISO 639-1 code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the language it contains. For example, a file containing French translations should be named  "`fr.yml`".
 
 > **Note:** If you wish to provide support for a specific locale, you can add an underscore followed by an [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes) country code; the filename for French as spoken in Canada, for example, would be "`fr_CA.yml`". But you should be sure to include a locale file containing "generic" translations for the same language, so Flarum will have something it can fall back on in the event a user specifies a locale that you haven't provided for.
 
