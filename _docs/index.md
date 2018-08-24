@@ -13,7 +13,7 @@ Flarum is the combined successor of [esoTalk](http://esotalk.org) and [FluxBB](h
 
 - **Fast and simple.** No clutter, no bloat, no complex dependencies. Flarum is built with PHP so it's quick and easy to deploy. The interface is powered by Mithril, a performant JavaScript framework with a tiny footprint.
 
-- **Beautiful and responsive.** This is forum software for humans. Flarum is carefully designed to be consistent and intuitive across platforms, out-of-the-box. It's backed by LESS, so themeing is a cinch.
+- **Beautiful and responsive.** This is forum software for humans. Flarum is carefully designed to be consistent and intuitive across platforms, out-of-the-box. It's backed by LESS, so theming is a cinch.
 
 - **Powerful and extensible.** Customize, extend, and integrate Flarum to suit your community. Flarum's architecture is amazingly flexible, prioritizing comprehensive APIs and great documentation.
 
