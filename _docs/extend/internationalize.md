@@ -420,7 +420,7 @@ It's probably impossible to avoid localization issues completely; there are just
 
 This probably goes without saying. After all, if you're going to go to the trouble of extracting translations, you might as well finish the job, right? Well, yes, but that's easier said than done. It's really quite unusual to find a program that doesn't have at least a few bits of hardcoded text floating around somewhere.
 
-Even tiny bits of text can cause problems for localizers. A comma here, a colon there &hellip; perhaps a pair of brackets inserted to make the page more legible: such things can and do cause issues for localizers. After all, not all languages use the same glyphs for these things! Just one hardcoded space can be a problem for someone trying to translate the interface into a languages that doesn't use spaces to separate words.
+Even tiny bits of text can cause problems for localizers. A comma here, a colon there &hellip; perhaps a pair of brackets inserted to make the page more legible: such things can and do cause issues for localizers. After all, not all languages use the same glyphs for these things! Just one hardcoded space can be a problem for someone trying to translate the interface into a language that doesn't use spaces to separate words.
 
 Generally speaking, any displayed text that isn't supplied by a variable or the result of a calculation *must* be included in the locale files. That's easily said, but actually doing it takes a bit of perseverance.
 
