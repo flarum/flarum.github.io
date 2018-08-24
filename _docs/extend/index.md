@@ -3,7 +3,7 @@ layout: docs
 title: Introduction
 permalink: /docs/extend/
 ---
-Flarum may be minimalistic, but it's also highly extensible. In fact, most of the features that ship with Flarum are actually Extensions! This approach makes Flarum extremely customizable. A user can disable any features they don't use on their forum, and install other Extensions to make a forum perfect for their use-case.
+Flarum may be minimalistic, but it's also highly extensible. In fact, most of the features that ship with Flarum are actually Extensions! This approach makes Flarum extremely customizable. A user can disable any features they don't use on their forum and install other Extensions to make a forum perfect for their use-case.
 
 In order to achieve this extensibility, Flarum has been built with rich APIs and extension points. With some programming knowledge, you can leverage these APIs to add just about any feature you want. This section of the documentation aims to teach you how Flarum works, and how to use the APIs so that you can build your own Extensions.
 
@@ -15,7 +15,7 @@ Where do we draw the line between Flarum's core and its extensions? Why are some
 
 **Flarum's core** is not intended to be packed full of features. Rather, it is a scaffold, or a framework, which provides a reliable foundation on which extensions can build. It contains only basic, unopinionated functionality that is essential to a forum: discussions, posts, users, groups, and notifications.
 
-**Bundled extensions** are features that are packaged with Flarum and enabled by default. They are extensions just like any other, and may be disabled and uninstalled. While their scope is not intended to address all use-cases, the idea is to make them generic and configurable enough that they can satisfy the majority.
+**Bundled extensions** are features that are packaged with Flarum and enabled by default. They are extensions just like any other and may be disabled and uninstalled. While their scope is not intended to address all use-cases, the idea is to make them generic and configurable enough that they can satisfy the majority.
 
 **Third-party extensions** are features which are made by others and are not officially supported by the Flarum team. They should be built and used to address more specific use-cases.
 

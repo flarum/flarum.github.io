@@ -36,7 +36,7 @@ return function () {
 
 ### composer.json
 
-Ever heard of [Composer](https://getcomposer.org)? It's a dependency manager for PHP. It allows applications to easily pull in external code libraries, and makes it easy to keep them up-to-date so that security and bug fixes are propagated rapidly. Pretty cool, huh?
+Ever heard of [Composer](https://getcomposer.org)? It's a dependency manager for PHP. It allows applications to easily pull in external code libraries and makes it easy to keep them up-to-date so that security and bug fixes are propagated rapidly. Pretty cool, huh?
 
 As it turns out, every Flarum Extension is also a Composer package. That means someone's Flarum installation can "require" a certain Extension and Composer will pull it in and keep it up-to-date. Nice!
 
@@ -64,7 +64,7 @@ Breaking it down:
 * **description** is a short one-sentence description of what the extension does.
 * **type** MUST be set to `flarum-extension`. This ensures that when someone "requires" your extension, it will be properly installed into the `extensions` directory.
 * **require** contains a list of your extension's own dependencies. You'll want to specify the first version of Flarum that your extension is compatible with here, usually prefixed with a caret (`^`).
-* **extra** contains some Flarum-specific information, like your extension's display name and the definition of its icon. For now just a title is fine.
+* **extra** contains some Flarum-specific information, like your extension's display name and the definition of its icon. For now, just a title is fine.
 
 Alright, all set? Now go ahead and fire 'er up on your forum's Administration page!
 
@@ -80,12 +80,12 @@ Alright folks, listen up.
 
 No, seriously, that's all there is to it.
 
-Whenever something of importance is about to happen, is happening, or has just happened, Flarum fires an **event**. As an Extension developer, your job is pretty simple: **listen** for the events you're interested in, and react accordingly.
+Whenever something of importance is about to happen, is happening, or has just happened, Flarum fires an **event**. As an Extension developer, your job is pretty simple: **listen** for the events you're interested in and react accordingly.
 
 For example:
 
 * When a discussion is started, Flarum fires the `DiscussionWasStarted` event. A "Twitter Feed" Extension could listen for this event and react by sending a tweet with the discussion's title and URL.
-* When post data is about to be saved to the database, Flarum fires the `PostWillBeSaved` event. An "Attachments" Extension could listen for this event and react by validating any uploaded files, and queing them to be saved to the database too.
+* When post data is about to be saved to the database, Flarum fires the `PostWillBeSaved` event. An "Attachments" Extension could listen for this event and react by validating any uploaded files and queuing them to be saved to the database too.
 * When the page HTML is about to be rendered, Flarum fires the `ConfigureClientView` event. A theme Extension could listen for this event and react by adding some CSS code to the page.
 
 Get the idea? Great! There are dozens of events you can listen for, and they're all found under the [`Flarum\Event` namespace](http://apidocs.flarum.org/0.1.0/php/Flarum/Event.html). Go ahead, have a squiz!
@@ -121,7 +121,7 @@ Try it out! Now whenever someone makes a post, the content will be set to "This 
 
 ## Changing the UI
 
-We're making good progress. We've learnt how to bootstrap our extension, and we can listen for events, which opens up a lot of doors.
+We're making good progress. We've learned how to bootstrap our extension, and we can listen for events, which opens up a lot of doors.
 
 The next thing we're going to learn is how to make changes to Flarum's user interface. How to add buttons, marquees, and blinking text. Well, maybe not the last couple...
 
@@ -142,7 +142,7 @@ In order to do this transpilation, you need to be working in a capable environme
 * Node.js (Download)
 * Gulp (`npm install --global gulp`)
 
-This can be tricky, because everyone's system is different. From the OS you're using, to the program versions you have installed, to the user access permissions – I get chills just thinking about it! If you run into trouble, ~~tell him I said hi~~ use [Google](http://google.com) to see if someone has encountered the same error as you and found a solution. If not, ask for help from the [Flarum Community](http://discuss.flarum.org) or on the [Discord chat]({{ site.baseurl }}/discord/).
+This can be tricky because everyone's system is different. From the OS you're using, to the program versions you have installed, to the user access permissions – I get chills just thinking about it! If you run into trouble, ~~tell him I said hi~~ use [Google](http://google.com) to see if someone has encountered the same error as you and found a solution. If not, ask for help from the [Flarum Community](http://discuss.flarum.org) or on the [Discord chat]({{ site.baseurl }}/discord/).
 
 ### Transpilation
 
@@ -210,7 +210,7 @@ This will cause our extension's JavaScript to be loaded into the page, and our b
 
 ### Components
 
-Flarum's interface is made up of many nested **components**. Components are a bit like HTML elements in that they encapsulate content and behaviour. For example, look at this simplified tree of the components that make up a discussion page:
+Flarum's interface is made up of many nested **components**. Components are a bit like HTML elements in that they encapsulate content and behavior. For example, look at this simplified tree of the components that make up a discussion page:
 
 * DiscussionPage
     - DiscussionList (the side pane)

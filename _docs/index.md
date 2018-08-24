@@ -3,7 +3,7 @@ layout: docs
 title: Introduction
 permalink: /docs/
 ---
-Flarum is free, open-source forum software with a focus on simplicity. You can use Flarum to easily [set up a discussion forum]({{ site.baseurl }}/docs/installation) for your website.
+Flarum is a free, open-source forum software with a focus on simplicity. You can use Flarum to easily [set up a discussion forum]({{ site.baseurl }}/docs/installation) for your website.
 
 Flarum is developed openly on [GitHub](https://github.com/flarum/flarum).
 
@@ -11,13 +11,13 @@ Flarum is developed openly on [GitHub](https://github.com/flarum/flarum).
 
 Flarum is the combined successor of [esoTalk](http://esotalk.org) and [FluxBB](http://fluxbb.org). It aims to be:
 
-- **Fast and simple.** No clutter, no bloat, no complex dependencies. Flarum is built with PHP so it's quick and easy to deploy. The interface is powered by Mithril, a performant JavaScript framework with a tiny footprint.
+- **Fast and simple.** No clutter, no bloat, no complex dependencies. Flarum is built with PHP, so it's quick and easy to deploy. The interface is powered by [Mithril](https://mithril.js.org), a performant JavaScript framework with a tiny footprint.
 
-- **Beautiful and responsive.** This is forum software for humans. Flarum is carefully designed to be consistent and intuitive across platforms, out-of-the-box. It's backed by LESS, so themeing is a cinch.
+- **Beautiful and responsive.** This is forum software for humans. Flarum is carefully designed to be consistent and intuitive across platforms, out-of-the-box. It's backed by LESS, so theming is a cinch.
 
 - **Powerful and extensible.** Customize, extend, and integrate Flarum to suit your community. Flarum's architecture is amazingly flexible, prioritizing comprehensive APIs and great documentation.
 
-- **Free and open.** Flarum is released under the [MIT license](https://github.com/flarum/flarum/blob/master/LICENSE).
+- **Free and open.** Flarum is released under the [MIT license](https://github.com/flarum/flarum/blob/master/LICENSE) and being worked openly on [GitHub](https://github.com/flarum/flarum).
 
 ## Installation
 

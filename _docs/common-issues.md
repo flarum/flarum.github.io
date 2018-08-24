@@ -56,7 +56,7 @@ This happens when your configured URL differs from the one you are using right n
 
 ## Slow
 
-Flarum is one for the fastest forums around. A normal page load should happen in under 3 seconds. So what to do if it still feels slow?
+Flarum is one of the fastest forums around. A normal page load should happen in under 3 seconds. So what to do if it still feels slow?
 
 First, identify whether the delay occurs in the `server`, the `network` or your `browser`. Using Chrome, open the developer tools, go to the network tab and load your forum. You will see a waterfall view like this:
 
@@ -64,17 +64,17 @@ First, identify whether the delay occurs in the `server`, the `network` or your 
 
 The first item is the page as rendered by the server (here: discuss.flarum.org). In this case, it took about half a second which is ok. If it takes more than a second, something is wrong with your server, see below. 
 
-Now look at the other items. The blue bar denotes the time that it took to download. Check the duration of the blue bar and the size of the item. Slow (>2 seconds), large (> 800KB) and Javascript? You are probably running in debug mode (check in `config.php`) which disables minification of assets. Slow but not very large items? Your network connection to the server is likely the problem. 
+Now, look at the other items. The blue bar denotes the time that it took to download. Check the duration of the blue bar and the size of the item. Slow (>2 seconds), large (> 800KB) and Javascript? You are probably running in debug mode (check in `config.php`) which disables minification of assets. Slow but not very large items? Your network connection to the server is likely the problem.
 
 No slow items but the total load time (see bottom right) is above 3 seconds? The delay is in your browser.
 
 ### Slow server
 
-To find the root cause, first identify which component is slow. Run `top` on your server. It will show you the processes that use the most capacity. Possibilities:
+To find the root cause, first, identify which component is slow. Run `top` on your server. It will show you the processes that use the most capacity. Possibilities:
 
 **Nginx or Apache**
 
-The webserver is busy. This should not happen, unless you use `mod_php` but that is not recommended.
+The web server is busy. This should not happen unless you use `mod_php` but that is not recommended.
 
 **MySQL**
 

@@ -27,7 +27,7 @@ You may decide to ignore these risks and install Flarum anyway. That's up to you
 
 ## How do I add a header logo, links, or favicon?
 
-You can add a logo and a favicon by visiting admisitration section > appearance and uploading those there. The functionality to add links is not yet there but, you can do that by using an [extension](https://github.com/sijad/flarum-ext-links) available in the community.
+You can add a logo and a favicon by visiting the administration section > appearance and uploading those there. The functionality to add links is not yet there but, you can do that by using an [extension](https://github.com/sijad/flarum-ext-links) available in the community.
 
 <a name="integration"></a>
 
@@ -45,7 +45,7 @@ We would love to build countless features and extensions for Flarum, but first t
 
 ## Why haven't you fixed [insert issue here] yet? 
 
-Here again the answer is "first things first". If we haven't fixed an issue (or assigned it a milestone) yet, it's because we're working on something else that's just as important. Please be patient; we'll try to get it done before release. Or if you're in a hurry, feel free to fix it yourself and [contribute to the project]({{ site.baseurl }}/docs/contributing)!
+Here again, the answer is "first things first". If we haven't fixed an issue (or assigned it a milestone) yet, it's because we're working on something else that's just as important. Please be patient; we'll try to get it done before release. Or if you're in a hurry, feel free to fix it yourself and [contribute to the project]({{ site.baseurl }}/docs/contributing)!
 
 <a name="migration"></a>
 
@@ -57,9 +57,9 @@ Yes, but not for a while. Our focus right now is on getting Flarum stable and fe
 
 ## How can I format my posts?
 
-Flarum currently does not have a visual editor – it's just something we didn't get to in time for beta. Rest assured, it is planned and will be available in the core soon.
+Flarum currently does not have a visual editor – it's just something we didn't get to in time for the beta. Rest assured, it is planned and will be available in the core soon.
 
-Despite not having a visual editor at the moment, Flarum does support Markdown and BBCode. Markdown is a plain text format for writing structured documents, based on conventions used for indicating formatting in email and usenet posts. If you are completely new to Markdown, check out [this cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) to help you with formatting your posts on Flarum.
+Despite not having a visual editor at the moment, Flarum does support Markdown and BBCode. Markdown is a plain text format for writing structured documents, based on conventions used for indicating formatting in email and Usenet posts. If you are completely new to Markdown, check out [this cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) to help you with formatting your posts on Flarum.
 
 <a name="translation"></a>
 
