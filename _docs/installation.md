@@ -142,6 +142,7 @@ However, there will be upgrade procedures for beta to stable. And the community 
 - [phpBB](https://discuss.flarum.org/d/1117-phpbb-migrate-script-updated-for-beta-5)
 - [SMF2](https://github.com/ItalianSpaceAstronauticsAssociation/smf2_to_flarum)
 - [FluxBB](https://discuss.flarum.org/d/3867-fluxbb-to-flarum-migration-tool)
+- [Discourse](https://github.com/TBits/discourse_to_flarum/)
 
 This can be used to import other forums as well, by exporting to phpBB first.
 
