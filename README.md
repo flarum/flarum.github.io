@@ -1,12 +1,10 @@
-# Flarum documentation
+# Flarum Website
 
-Hi! Looking to contribute documentation to [Flarum](http://flarum.org)? That is great, we can use all the help. Flarum is evolving rapidly and so should its documentation.
-
-_This repo will eventually be deprecated in favour of [flarum/docs](https://github.com/flarum/docs). But until a definitive conversion date is planned, you are welcome to contribute here._
+Docs can be found in the [flarum/docs](https://github.com/flarum/docs) repo.
 
 # Get started 
 
-You can edit small changes online using the Github editor. For larger edits it is recommended to make a local checkout and test your changes before you commit them. To do that, you need Ruby. Instructions for Linux/Mac:
+You can edit small changes online using the GitHub editor. For larger edits it is recommended to make a local checkout and test your changes before you commit them. To do that, you need Ruby. Instructions for Linux/Mac:
 
 ```
 git clone https://github.com/flarum/flarum.github.io
