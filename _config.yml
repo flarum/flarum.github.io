@@ -8,7 +8,3 @@ twitter_username: Flarum
 google_analytics_id: UA-44566935-2
 kramdown:
   input: GFM
-
-collections:
-  docs:
-    output: true
