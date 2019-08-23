@@ -24,7 +24,7 @@ When registered and posting, we record the IP address that the post originated f
 
 Any of the information we collect from you may be used in one of the following ways:
 
-* To personalise your experience - your information helps us to better respond to your individual needs.
+* To personalize your experience - your information helps us to better respond to your individual needs.
 * To improve our site - we continually strive to improve our site offerings based on the information and feedback we receive from you.
 * To improve customer service - your information helps us to more effectively respond to your customer service requests and support needs.
 * To send periodic emails - the email address you provide may be used to send you information, notifications that you request about changes to topics or in response to your username, respond to inquiries and/or other requests or questions.
